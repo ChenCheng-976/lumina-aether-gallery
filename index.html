@@ -12,12 +12,16 @@
             color: #333;
         }
         .header {
-            background: url('images/header-background.jpg') no-repeat center center;
+            background: url('imges/tower_02.jpg') no-repeat center center;
             background-size: cover;
             color: #fff;
-            padding: 40px 20px;
+            padding: 20px;
             text-align: center;
             position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
         }
         .header::after {
             content: "";
@@ -31,6 +35,11 @@
         .header-content {
             position: relative;
             z-index: 1;
+        }
+        .logo {
+            width: 120px; /* Adjust based on your logo's size */
+            height: auto;
+            margin-bottom: 20px;
         }
         .header h1 {
             margin: 0;
@@ -46,47 +55,16 @@
             z-index: 2;
             border-radius: 8px;
         }
-        .projects-container {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-around;
-            gap: 20px;
-        }
-        .project {
-            position: relative;
-            width: calc(50% - 10px);
-            margin-bottom: -100px;
-        }
-        .project img {
-            width: 100%;
-            height: auto;
-            border-radius: 8px;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-        }
-        .project-info {
-            position: absolute;
-            bottom: 10px;
-            left: 10px;
-            right: 10px;
-            background: rgba(255, 255, 255, 0.9);
-            padding: 15px;
-            border-radius: 8px;
-        }
-        .footer {
-            background-color: #222;
-            color: #fff;
-            text-align: center;
-            padding: 20px;
-            margin-top: 120px;
-        }
+        /* Other styles remain the same */
     </style>
 </head>
 <body>
 
 <div class="header">
     <div class="header-content">
+        <img src="imges/logo.jpg" class="logo">
         <h1>Lumina Aether Gallery</h1>
-        <p>Where art meets technology</p>
+<!--         <p>Where art meets technology</p> -->
     </div>
 </div>
 
