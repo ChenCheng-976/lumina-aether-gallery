@@ -58,17 +58,24 @@
             gap: 20px;
             padding: 20px;
         }
+        
         .project {
             background: #fff;
             border-radius: 8px;
             box-shadow: 0 4px 6px rgba(0,0,0,0.1);
             overflow: hidden;
         }
+        
         .project img {
-            width: 100%;
-            height: auto;
-            display: block;
+        width: 100%; /* Ensures image is responsive and scales with the width of its container */
+        max-height: 150px; /* Adjust this value to control the image size */
+        height: auto; /* Maintains aspect ratio */
+        display: block;
+        object-fit: cover; /* Ensures the image covers the area without losing its aspect ratio */
+        border-top-left-radius: 8px; /* Matches the project's border radius for the top corners */
+        border-top-right-radius: 8px;
         }
+        
         .project-info {
             padding: 15px;
         }
