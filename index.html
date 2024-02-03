@@ -37,21 +37,22 @@
             font-size: 2.5em;
         }
         .gallery-intro {
-            text-align: center;
-            padding: 20px;
-            margin: 20px;
-            background: #222;
-            color: #fff; /* Ensure text is readable */
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-            position: relative;
-            z-index: 2;
-            border-radius: 8px;
-            transform: translateY(-50%);
-            max-width: calc(100% - 40px);
+        text-align: center;
+        padding: 20px;
+        margin: 40px 20px 20px; /* Increased top margin to create more space */
+        background: #222;
+        color: #fff; /* Ensure text is readable */
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        position: relative;
+        z-index: 2;
+        border-radius: 8px; /* Removed the translateY transformation to prevent overlap */
+        max-width: calc(100% - 40px);
         }
+        
         .main-content {
-            margin-top: -30px;
+        margin-top: 20px; /* Adjust as needed to create additional space */
         }
+        
         .projects-container {
             display: flex;
             flex-wrap: wrap;
