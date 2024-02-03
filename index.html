@@ -39,45 +39,45 @@
         .gallery-intro {
             text-align: center;
             padding: 20px;
+            margin: 20px;
             background-color: #fff;
-            margin: -30px 20px 20px;
             box-shadow: 0 4px 6px rgba(0,0,0,0.1);
             position: relative;
             z-index: 2;
             border-radius: 8px;
+            transform: translateY(-50%);
+            max-width: calc(100% - 40px);
+        }
+        .main-content {
+            margin-top: -30px;
         }
         .projects-container {
             display: flex;
             flex-wrap: wrap;
             justify-content: space-around;
             gap: 20px;
+            padding: 20px;
         }
         .project {
-            position: relative;
-            width: calc(50% - 10px);
-            margin-bottom: -100px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            overflow: hidden;
         }
         .project img {
             width: 100%;
             height: auto;
-            border-radius: 8px;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            display: block;
         }
         .project-info {
-            position: absolute;
-            bottom: 10px;
-            left: 10px;
-            right: 10px;
-            background: rgba(255, 255, 255, 0.9);
             padding: 15px;
-            border-radius: 8px;
         }
         .footer {
             background-color: #222;
             color: #fff;
             text-align: center;
             padding: 20px;
-            margin-top: 120px;
+            margin-top: 30px;
         }
     </style>
 </head>
@@ -95,9 +95,6 @@
         <p>Welcome to Lumina Aether Gallery. Dive into our collection of innovative art projects and research papers that bridge the gap between creativity and technological advancement.</p>
     </div>
     <div class="projects-container">
-
-
-        
         <!-- project 01 -->
         <div class="project">
             <img src="imges/flower_01.jpg" alt="Project Artwork">
@@ -108,8 +105,6 @@
             </div>
         </div>
 
-
-        
         <!-- project 02 -->
         <div class="project">
             <img src="imges/flower_02.jpg" alt="Project Artwork">
@@ -119,22 +114,8 @@
                 <a href="path_to_paper.pdf" target="_blank">Read the Paper</a>
             </div>
         </div>
-
-
-
-
-
-
-        
     </div>
 </div>
-
-
-
-
-
-
-    
 
 <div class="footer">
     <p>&copy; 2024 Lumina Aether Gallery. All rights reserved.</p>
