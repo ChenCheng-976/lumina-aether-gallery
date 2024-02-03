@@ -60,23 +60,60 @@
             padding: 20px;
         }
         
-        .project {
+/*         .project {
             background: #222;
             color: #fff; /* Ensure text is readable */
             border-radius: 8px;
             box-shadow: 0 4px 6px rgba(0,0,0,0.1);
             overflow: hidden;
         }
+ */
+        .project {
+        position: relative;
+        width: calc(50% - 10px);
+        background: #222;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        overflow: hidden;
+        transition: transform 0.3s ease;
+        }
+       
+        .project:hover {
+        transform: scale(1.05); /* Slight zoom on hover for emphasis */
+        }
+        .hover-info {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.7); /* Dark overlay for readability */
+        color: #fff;
+        opacity: 0;
+        visibility: hidden;
+        transition: opacity 0.3s ease, visibility 0s linear 0.3s;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        }
+        .project:hover .hover-info {
+        opacity: 1;
+        visibility: visible;
+        transition-delay: 0s;
+        }
+
         
         .project img {
         width: 100%; /* Ensures image is responsive and scales with the width of its container */
-        max-height: 600px; /* Adjust this value to control the image size */
+        height: auto; /* Adjust this value to control the image size */
         height: auto; /* Maintains aspect ratio */
         display: block;
         object-fit: cover; /* Ensures the image covers the area without losing its aspect ratio */
         border-top-left-radius: 8px; /* Matches the project's border radius for the top corners */
         border-top-right-radius: 8px;
         }
+
         
         .project-info {
         background: rgba(255, 255, 255, 0.1); /* Adjust for readability with a dark theme */
@@ -105,28 +142,43 @@
         <p> Discover Lumina Aether Gallery: where Nishio Lab's innovation transforms art, blending science with creativity for a unique, immersive experience.</p>
     </div>
     <div class="projects-container">
+
         <!-- project 01 -->
         <div class="project">
-            <img src="imges/flower_01.jpg" alt="Project Artwork">
+        <img src="images/flower_01.jpg" alt="Project Artwork">
+        <div class="hover-info">
             <div class="project-info">
                 <h3>Project Title</h3>
                 <p>Short description of the project. This section can highlight the project's inspiration, the technology used, or any other relevant information.</p>
-                <a href="path_to_paper.pdf" target="_blank">Read the Paper</a>
-            </div>
-        </div>
-
-        <!-- project 02 -->
-        <div class="project">
-            <img src="imges/flower_02.jpg" alt="Project Artwork">
-            <div class="project-info">
-                <h3>Project Title</h3>
-                <p>Short description of the project. This section can highlight the project's inspiration, the technology used, or any other relevant information.</p>
-                <a href="path_to_paper.pdf" target="_blank">Read the Paper</a>
+                <a href="path_to_paper.pdf" >Read the Paper</a>
             </div>
         </div>
     </div>
+        
+        
+        <!-- project 02 -->
+        <div class="project">
+        <img src="images/flower_02.jpg" alt="Project Artwork">
+        <div class="hover-info">
+            <div class="project-info">
+                <h3>Project Title</h3>
+                <p>Short description of the project. This section can highlight the project's inspiration, the technology used, or any other relevant information.</p>
+                <a href="path_to_paper.pdf" >Read the Paper</a>
+            </div>
+        </div>
+    </div>
+
+
+        
+    </div>
 </div>
 
+
+
+
+
+
+    
 <div class="footer">
     <p>&copy; 2024 Lumina Aether Gallery. All rights reserved.</p>
 </div>
