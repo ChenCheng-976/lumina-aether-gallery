@@ -1,19 +1,27 @@
-
 /* style.css */
 body {
-    font-family: Arial, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     color: #333;
-    background-color: #f4f4f9;
+    background-color: #fff;
 }
 
 header, nav, main, footer {
+    text-align: center;
     margin: 0 auto;
     padding: 20px;
     max-width: 1200px;
 }
 
+.profile-photo img {
+    width: 150px; /* Adjust based on your preference */
+    height: auto;
+    border-radius: 50%; /* Circular photo */
+    margin: 0 auto;
+}
+
 h1, h2 {
-    color: #6a5acd; /* SlateBlue */
+    color: #4169e1; /* RoyalBlue */
+    font-size: 2em; /* Larger font size */
 }
 
 nav ul {
@@ -23,24 +31,27 @@ nav ul {
 
 nav ul li {
     display: inline;
-    margin-right: 20px;
+    margin: 0 10px;
 }
 
 nav ul li a {
     text-decoration: none;
     color: #4169e1; /* RoyalBlue */
+    font-size: 1.2em; /* Larger font size */
 }
 
 #introduction, #news {
-    background-color: #e6e6fa; /* Lavender */
+    background-color: #e6e6fa; /* Lavender, light touch of blue */
     padding: 20px;
     margin-top: 20px;
     border-radius: 8px;
+    display: inline-block; /* Center align */
+    width: auto;
 }
 
 footer {
     font-size: 0.8em;
     text-align: center;
     padding: 20px;
-    background-color: #dde;
+    background-color: #f4f4f9; /* Very light blue */
 }
