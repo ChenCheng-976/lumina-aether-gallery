@@ -1,52 +1,582 @@
-<!DOCTYPE html>
-<html lang="en">
+
+<!DOCTYPE HTML>
+<html lang="en-US">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cheng Chen - Researcher & Artist</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" /><script type="text/javascript">(window.NREUM||(NREUM={})).init={ajax:{deny_list:["bam.nr-data.net"]}};(window.NREUM||(NREUM={})).loader_config={licenseKey:"e7fb1b89a0",applicationID:"750147145"};;/*! For license information please see nr-loader-rum-1.252.1.min.js.LICENSE.txt */
+(()=>{var e,t,r={234:(e,t,r)=>{"use strict";r.d(t,{P_:()=>v,Mt:()=>b,C5:()=>s,DL:()=>w,OP:()=>S,lF:()=>T,Yu:()=>x,Dg:()=>m,CX:()=>c,GE:()=>_,sU:()=>R});var n=r(8632),i=r(9567);const o={beacon:n.ce.beacon,errorBeacon:n.ce.errorBeacon,licenseKey:void 0,applicationID:void 0,sa:void 0,queueTime:void 0,applicationTime:void 0,ttGuid:void 0,user:void 0,account:void 0,product:void 0,extra:void 0,jsAttributes:{},userAttributes:void 0,atts:void 0,transactionName:void 0,tNamePlain:void 0},a={};function s(e){if(!e)throw new Error("All info objects require an agent identifier!");if(!a[e])throw new Error("Info for ".concat(e," was never set"));return a[e]}function c(e,t){if(!e)throw new Error("All info objects require an agent identifier!");a[e]=(0,i.D)(t,o);const r=(0,n.ek)(e);r&&(r.info=a[e])}const u=e=>{if(!e||"string"!=typeof e)return!1;try{document.createDocumentFragment().querySelector(e)}catch{return!1}return!0};var d=r(7056),l=r(50);const f="[data-nr-mask]",g=()=>{const e={mask_selector:"*",block_selector:"[data-nr-block]",mask_input_options:{color:!1,date:!1,"datetime-local":!1,email:!1,month:!1,number:!1,range:!1,search:!1,tel:!1,text:!1,time:!1,url:!1,week:!1,textarea:!1,select:!1,password:!0}};return{feature_flags:[],proxy:{assets:void 0,beacon:void 0},privacy:{cookies_enabled:!0},ajax:{deny_list:void 0,block_internal:!0,enabled:!0,harvestTimeSeconds:10,autoStart:!0},distributed_tracing:{enabled:void 0,exclude_newrelic_header:void 0,cors_use_newrelic_header:void 0,cors_use_tracecontext_headers:void 0,allowed_origins:void 0},session:{domain:void 0,expiresMs:d.oD,inactiveMs:d.Hb},ssl:void 0,obfuscate:void 0,jserrors:{enabled:!0,harvestTimeSeconds:10,autoStart:!0},metrics:{enabled:!0,autoStart:!0},page_action:{enabled:!0,harvestTimeSeconds:30,autoStart:!0},page_view_event:{enabled:!0,autoStart:!0},page_view_timing:{enabled:!0,harvestTimeSeconds:30,long_task:!1,autoStart:!0},session_trace:{enabled:!0,harvestTimeSeconds:10,autoStart:!0},harvest:{tooManyRequestsDelay:60},session_replay:{autoStart:!0,enabled:!1,harvestTimeSeconds:60,sampling_rate:10,error_sampling_rate:100,collect_fonts:!1,inline_images:!1,inline_stylesheet:!0,mask_all_inputs:!0,get mask_text_selector(){return e.mask_selector},set mask_text_selector(t){u(t)?e.mask_selector="".concat(t,",").concat(f):""===t||null===t?e.mask_selector=f:(0,l.Z)("An invalid session_replay.mask_selector was provided. '*' will be used.",t)},get block_class(){return"nr-block"},get ignore_class(){return"nr-ignore"},get mask_text_class(){return"nr-mask"},get block_selector(){return e.block_selector},set block_selector(t){u(t)?e.block_selector+=",".concat(t):""!==t&&(0,l.Z)("An invalid session_replay.block_selector was provided and will not be used",t)},get mask_input_options(){return e.mask_input_options},set mask_input_options(t){t&&"object"==typeof t?e.mask_input_options={...t,password:!0}:(0,l.Z)("An invalid session_replay.mask_input_option was provided and will not be used",t)}},spa:{enabled:!0,harvestTimeSeconds:10,autoStart:!0}}},p={},h="All configuration objects require an agent identifier!";function v(e){if(!e)throw new Error(h);if(!p[e])throw new Error("Configuration for ".concat(e," was never set"));return p[e]}function m(e,t){if(!e)throw new Error(h);p[e]=(0,i.D)(t,g());const r=(0,n.ek)(e);r&&(r.init=p[e])}function b(e,t){if(!e)throw new Error(h);var r=v(e);if(r){for(var n=t.split("."),i=0;i<n.length-1;i++)if("object"!=typeof(r=r[n[i]]))return;r=r[n[n.length-1]]}return r}const y={accountID:void 0,trustKey:void 0,agentID:void 0,licenseKey:void 0,applicationID:void 0,xpid:void 0},A={};function w(e){if(!e)throw new Error("All loader-config objects require an agent identifier!");if(!A[e])throw new Error("LoaderConfig for ".concat(e," was never set"));return A[e]}function _(e,t){if(!e)throw new Error("All loader-config objects require an agent identifier!");A[e]=(0,i.D)(t,y);const r=(0,n.ek)(e);r&&(r.loader_config=A[e])}const x=(0,n.mF)().o;var E=r(385),D=r(6818);const k={buildEnv:D.Re,customTransaction:void 0,disabled:!1,distMethod:D.gF,isolatedBacklog:!1,loaderType:void 0,maxBytes:3e4,offset:Math.floor(E._A?.performance?.timeOrigin||E._A?.performance?.timing?.navigationStart||Date.now()),onerror:void 0,origin:""+E._A.location,ptid:void 0,releaseIds:{},session:void 0,xhrWrappable:"function"==typeof E._A.XMLHttpRequest?.prototype?.addEventListener,version:D.q4,denyList:void 0},j={};function S(e){if(!e)throw new Error("All runtime objects require an agent identifier!");if(!j[e])throw new Error("Runtime for ".concat(e," was never set"));return j[e]}function R(e,t){if(!e)throw new Error("All runtime objects require an agent identifier!");j[e]=(0,i.D)(t,k);const r=(0,n.ek)(e);r&&(r.runtime=j[e])}function T(e){return function(e){try{const t=s(e);return!!t.licenseKey&&!!t.errorBeacon&&!!t.applicationID}catch(e){return!1}}(e)}},9567:(e,t,r)=>{"use strict";r.d(t,{D:()=>i});var n=r(50);function i(e,t){try{if(!e||"object"!=typeof e)return(0,n.Z)("Setting a Configurable requires an object as input");if(!t||"object"!=typeof t)return(0,n.Z)("Setting a Configurable requires a model to set its initial properties");const r=Object.create(Object.getPrototypeOf(t),Object.getOwnPropertyDescriptors(t)),o=0===Object.keys(r).length?e:r;for(let a in o)if(void 0!==e[a])try{Array.isArray(e[a])&&Array.isArray(t[a])?r[a]=Array.from(new Set([...e[a],...t[a]])):"object"==typeof e[a]&&"object"==typeof t[a]?r[a]=i(e[a],t[a]):r[a]=e[a]}catch(e){(0,n.Z)("An error occurred while setting a property of a Configurable",e)}return r}catch(e){(0,n.Z)("An error occured while setting a Configurable",e)}}},6818:(e,t,r)=>{"use strict";r.d(t,{Re:()=>i,gF:()=>o,q4:()=>n});const n="1.252.1",i="PROD",o="CDN"},385:(e,t,r)=>{"use strict";r.d(t,{Nk:()=>d,Tt:()=>s,_A:()=>o,cv:()=>l,iS:()=>a,il:()=>n,ux:()=>c,v6:()=>i,w1:()=>u});const n="undefined"!=typeof window&&!!window.document,i="undefined"!=typeof WorkerGlobalScope&&("undefined"!=typeof self&&self instanceof WorkerGlobalScope&&self.navigator instanceof WorkerNavigator||"undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope&&globalThis.navigator instanceof WorkerNavigator),o=n?window:"undefined"!=typeof WorkerGlobalScope&&("undefined"!=typeof self&&self instanceof WorkerGlobalScope&&self||"undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope&&globalThis),a=Boolean("hidden"===o?.document?.visibilityState),s=/iPad|iPhone|iPod/.test(o.navigator?.userAgent),c=s&&"undefined"==typeof SharedWorker,u=((()=>{const e=o.navigator?.userAgent?.match(/Firefox[/\s](\d+\.\d+)/);Array.isArray(e)&&e.length>=2&&e[1]})(),Boolean(n&&window.document.documentMode)),d=!!o.navigator?.sendBeacon,l=Math.floor(o?.performance?.timeOrigin||o?.performance?.timing?.navigationStart||Date.now())},1117:(e,t,r)=>{"use strict";r.d(t,{w:()=>o});var n=r(50);const i={agentIdentifier:"",ee:void 0};class o{constructor(e){try{if("object"!=typeof e)return(0,n.Z)("shared context requires an object as input");this.sharedContext={},Object.assign(this.sharedContext,i),Object.entries(e).forEach((e=>{let[t,r]=e;Object.keys(i).includes(t)&&(this.sharedContext[t]=r)}))}catch(e){(0,n.Z)("An error occured while setting SharedContext",e)}}}},8e3:(e,t,r)=>{"use strict";r.d(t,{L:()=>d,R:()=>c});var n=r(8325),i=r(1284),o=r(4322),a=r(3325);const s={};function c(e,t){const r={staged:!1,priority:a.p[t]||0};u(e),s[e].get(t)||s[e].set(t,r)}function u(e){e&&(s[e]||(s[e]=new Map))}function d(){let e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:"",t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:"feature",r=arguments.length>2&&void 0!==arguments[2]&&arguments[2];if(u(e),!e||!s[e].get(t)||r)return c(t);s[e].get(t).staged=!0;const a=[...s[e]];function c(t){const r=e?n.ee.get(e):n.ee,a=o.X.handlers;if(r.backlog&&a){var s=r.backlog[t],c=a[t];if(c){for(var u=0;s&&u<s.length;++u)l(s[u],c);(0,i.D)(c,(function(e,t){(0,i.D)(t,(function(t,r){r[0].on(e,r[1])}))}))}delete a[t],r.backlog[t]=null,r.emit("drain-"+t,[])}}a.every((e=>{let[t,r]=e;return r.staged}))&&(a.sort(((e,t)=>e[1].priority-t[1].priority)),a.forEach((t=>{let[r]=t;s[e].delete(r),c(r)})))}function l(e,t){var r=e[1];(0,i.D)(t[r],(function(t,r){var n=e[0];if(r[0]===n){var i=r[1],o=e[3],a=e[2];i.apply(o,a)}}))}},8325:(e,t,r)=>{"use strict";r.d(t,{A:()=>c,ee:()=>u});var n=r(8632),i=r(2210),o=r(234);class a{constructor(e){this.contextId=e}}var s=r(3117);const c="nr@context:".concat(s.a),u=function e(t,r){var n={},s={},d={},f=!1;try{f=16===r.length&&(0,o.OP)(r).isolatedBacklog}catch(e){}var g={on:h,addEventListener:h,removeEventListener:function(e,t){var r=n[e];if(!r)return;for(var i=0;i<r.length;i++)r[i]===t&&r.splice(i,1)},emit:function(e,r,n,i,o){!1!==o&&(o=!0);if(u.aborted&&!i)return;t&&o&&t.emit(e,r,n);for(var a=p(n),c=v(e),d=c.length,l=0;l<d;l++)c[l].apply(a,r);var f=b()[s[e]];f&&f.push([g,e,r,a]);return a},get:m,listeners:v,context:p,buffer:function(e,t){const r=b();if(t=t||"feature",g.aborted)return;Object.entries(e||{}).forEach((e=>{let[n,i]=e;s[i]=t,t in r||(r[t]=[])}))},abort:l,aborted:!1,isBuffering:function(e){return!!b()[s[e]]},debugId:r,backlog:f?{}:t&&"object"==typeof t.backlog?t.backlog:{}};return g;function p(e){return e&&e instanceof a?e:e?(0,i.X)(e,c,(()=>new a(c))):new a(c)}function h(e,t){n[e]=v(e).concat(t)}function v(e){return n[e]||[]}function m(t){return d[t]=d[t]||e(g,t)}function b(){return g.backlog}}(void 0,"globalEE"),d=(0,n.fP)();function l(){u.aborted=!0,Object.keys(u.backlog).forEach((e=>{delete u.backlog[e]}))}d.ee||(d.ee=u)},5546:(e,t,r)=>{"use strict";r.d(t,{E:()=>n,p:()=>i});var n=r(8325).ee.get("handle");function i(e,t,r,i,o){o?(o.buffer([e],i),o.emit(e,t,r)):(n.buffer([e],i),n.emit(e,t,r))}},4322:(e,t,r)=>{"use strict";r.d(t,{X:()=>o});var n=r(5546);o.on=a;var i=o.handlers={};function o(e,t,r,o){a(o||n.E,i,e,t,r)}function a(e,t,r,i,o){o||(o="feature"),e||(e=n.E);var a=t[o]=t[o]||{};(a[r]=a[r]||[]).push([e,i])}},3239:(e,t,r)=>{"use strict";r.d(t,{bP:()=>s,iz:()=>c,m$:()=>a});var n=r(385);let i=!1,o=!1;try{const e={get passive(){return i=!0,!1},get signal(){return o=!0,!1}};n._A.addEventListener("test",null,e),n._A.removeEventListener("test",null,e)}catch(e){}function a(e,t){return i||o?{capture:!!e,passive:i,signal:t}:!!e}function s(e,t){let r=arguments.length>2&&void 0!==arguments[2]&&arguments[2],n=arguments.length>3?arguments[3]:void 0;window.addEventListener(e,t,a(r,n))}function c(e,t){let r=arguments.length>2&&void 0!==arguments[2]&&arguments[2],n=arguments.length>3?arguments[3]:void 0;document.addEventListener(e,t,a(r,n))}},3117:(e,t,r)=>{"use strict";r.d(t,{a:()=>n});const n=(0,r(4402).Rl)()},4402:(e,t,r)=>{"use strict";r.d(t,{Rl:()=>a,ky:()=>s});var n=r(385);const i="xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx";function o(e,t){return e?15&e[t]:16*Math.random()|0}function a(){const e=n._A?.crypto||n._A?.msCrypto;let t,r=0;return e&&e.getRandomValues&&(t=e.getRandomValues(new Uint8Array(30))),i.split("").map((e=>"x"===e?o(t,r++).toString(16):"y"===e?(3&o()|8).toString(16):e)).join("")}function s(e){const t=n._A?.crypto||n._A?.msCrypto;let r,i=0;t&&t.getRandomValues&&(r=t.getRandomValues(new Uint8Array(e)));const a=[];for(var s=0;s<e;s++)a.push(o(r,i++).toString(16));return a.join("")}},7056:(e,t,r)=>{"use strict";r.d(t,{Bq:()=>n,Hb:()=>o,IK:()=>c,oD:()=>i,uT:()=>s,wO:()=>a});const n="NRBA",i=144e5,o=18e5,a={PAUSE:"session-pause",RESET:"session-reset",RESUME:"session-resume",UPDATE:"session-update"},s={SAME_TAB:"same-tab",CROSS_TAB:"cross-tab"},c={OFF:0,FULL:1,ERROR:2}},7894:(e,t,r)=>{"use strict";function n(){return Math.round(performance.now())}r.d(t,{z:()=>n})},50:(e,t,r)=>{"use strict";function n(e,t){"function"==typeof console.warn&&(console.warn("New Relic: ".concat(e)),t&&console.warn(t))}r.d(t,{Z:()=>n})},2825:(e,t,r)=>{"use strict";r.d(t,{N:()=>d,T:()=>l});var n=r(8325),i=r(5546),o=r(3325),a=r(385);const s="newrelic";const c={stn:[o.D.sessionTrace],err:[o.D.jserrors,o.D.metrics],ins:[o.D.pageAction],spa:[o.D.spa],sr:[o.D.sessionReplay,o.D.sessionTrace]},u=new Set;function d(e,t){const r=n.ee.get(t);e&&"object"==typeof e&&(u.has(t)||(Object.entries(e).forEach((e=>{let[t,n]=e;c[t]?c[t].forEach((e=>{n?(0,i.p)("feat-"+t,[],void 0,e,r):(0,i.p)("block-"+t,[],void 0,e,r),(0,i.p)("rumresp-"+t,[Boolean(n)],void 0,e,r)})):n&&(0,i.p)("feat-"+t,[],void 0,void 0,r),l[t]=Boolean(n)})),Object.keys(c).forEach((e=>{void 0===l[e]&&(c[e]?.forEach((t=>(0,i.p)("rumresp-"+e,[!1],void 0,t,r))),l[e]=!1)})),u.add(t),function(){let e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:{};try{a._A.dispatchEvent(new CustomEvent(s,{detail:e}))}catch(e){}}({loaded:!0})))}const l={}},2210:(e,t,r)=>{"use strict";r.d(t,{X:()=>i});var n=Object.prototype.hasOwnProperty;function i(e,t,r){if(n.call(e,t))return e[t];var i=r();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:i,writable:!0,enumerable:!1}),i}catch(e){}return e[t]=i,i}},1284:(e,t,r)=>{"use strict";r.d(t,{D:()=>n});const n=(e,t)=>Object.entries(e||{}).map((e=>{let[r,n]=e;return t(r,n)}))},4351:(e,t,r)=>{"use strict";r.d(t,{P:()=>o});var n=r(8325);const i=()=>{const e=new WeakSet;return(t,r)=>{if("object"==typeof r&&null!==r){if(e.has(r))return;e.add(r)}return r}};function o(e){try{return JSON.stringify(e,i())}catch(e){try{n.ee.emit("internal-error",[e])}catch(e){}}}},3960:(e,t,r)=>{"use strict";r.d(t,{KB:()=>a,b2:()=>o});var n=r(3239);function i(){return"undefined"==typeof document||"complete"===document.readyState}function o(e,t){if(i())return e();(0,n.bP)("load",e,t)}function a(e){if(i())return e();(0,n.iz)("DOMContentLoaded",e)}},8632:(e,t,r)=>{"use strict";r.d(t,{EZ:()=>d,ce:()=>o,ek:()=>u,fP:()=>a,gG:()=>l,h5:()=>c,mF:()=>s});var n=r(7894),i=r(385);const o={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net"};function a(){return i._A.NREUM||(i._A.NREUM={}),void 0===i._A.newrelic&&(i._A.newrelic=i._A.NREUM),i._A.NREUM}function s(){let e=a();return e.o||(e.o={ST:i._A.setTimeout,SI:i._A.setImmediate,CT:i._A.clearTimeout,XHR:i._A.XMLHttpRequest,REQ:i._A.Request,EV:i._A.Event,PR:i._A.Promise,MO:i._A.MutationObserver,FETCH:i._A.fetch}),e}function c(e,t){let r=a();r.initializedAgents??={},t.initializedAt={ms:(0,n.z)(),date:new Date},r.initializedAgents[e]=t}function u(e){let t=a();return t.initializedAgents?.[e]}function d(e,t){a()[e]=t}function l(){return function(){let e=a();const t=e.info||{};e.info={beacon:o.beacon,errorBeacon:o.errorBeacon,...t}}(),function(){let e=a();const t=e.init||{};e.init={...t}}(),s(),function(){let e=a();const t=e.loader_config||{};e.loader_config={...t}}(),a()}},7956:(e,t,r)=>{"use strict";r.d(t,{N:()=>i});var n=r(3239);function i(e){let t=arguments.length>1&&void 0!==arguments[1]&&arguments[1],r=arguments.length>2?arguments[2]:void 0,i=arguments.length>3?arguments[3]:void 0;(0,n.iz)("visibilitychange",(function(){if(t)return void("hidden"===document.visibilityState&&e());e(document.visibilityState)}),r,i)}},3081:(e,t,r)=>{"use strict";r.d(t,{gF:()=>o,mY:()=>i,t9:()=>n,vz:()=>s,xS:()=>a});const n=r(3325).D.metrics,i="sm",o="cm",a="storeSupportabilityMetrics",s="storeEventMetrics"},7633:(e,t,r)=>{"use strict";r.d(t,{t:()=>n});const n=r(3325).D.pageViewEvent},9251:(e,t,r)=>{"use strict";r.d(t,{t:()=>n});const n=r(3325).D.pageViewTiming},5938:(e,t,r)=>{"use strict";r.d(t,{W:()=>i});var n=r(8325);class i{constructor(e,t,r){this.agentIdentifier=e,this.aggregator=t,this.ee=n.ee.get(e),this.featureName=r,this.blocked=!1}}},8862:(e,t,r)=>{"use strict";r.d(t,{j:()=>A});var n=r(3325),i=r(234),o=r(5546),a=r(8325),s=r(7894),c=r(8e3),u=r(3960),d=r(385),l=r(50),f=r(3081),g=r(8632);const p=["setErrorHandler","finished","addToTrace","addRelease","addPageAction","setCurrentRouteName","setPageViewName","setCustomAttribute","interaction","noticeError","setUserId","setApplicationVersion","start","recordReplay","pauseReplay"],h=["setErrorHandler","finished","addToTrace","addRelease"];function v(){const e=(0,g.gG)();p.forEach((t=>{e[t]=function(){for(var r=arguments.length,n=new Array(r),i=0;i<r;i++)n[i]=arguments[i];return function(t){for(var r=arguments.length,n=new Array(r>1?r-1:0),i=1;i<r;i++)n[i-1]=arguments[i];let o=[];return Object.values(e.initializedAgents).forEach((e=>{e.exposed&&e.api[t]&&o.push(e.api[t](...n))})),o.length>1?o:o[0]}(t,...n)}}))}var m=r(2825);const b=e=>{const t=e.startsWith("http");e+="/",r.p=t?e:"https://"+e};let y=!1;function A(e){let t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:{},p=arguments.length>2?arguments[2]:void 0,A=arguments.length>3?arguments[3]:void 0,{init:w,info:_,loader_config:x,runtime:E={loaderType:p},exposed:D=!0}=t;const k=(0,g.gG)();_||(w=k.init,_=k.info,x=k.loader_config),(0,i.Dg)(e.agentIdentifier,w||{}),(0,i.GE)(e.agentIdentifier,x||{}),_.jsAttributes??={},d.v6&&(_.jsAttributes.isWorker=!0),(0,i.CX)(e.agentIdentifier,_);const j=(0,i.P_)(e.agentIdentifier),S=[_.beacon,_.errorBeacon];y||(j.proxy.assets&&(b(j.proxy.assets),S.push(j.proxy.assets)),j.proxy.beacon&&S.push(j.proxy.beacon),v(),(0,g.EZ)("activatedFeatures",m.T)),E.denyList=[...j.ajax.deny_list||[],...j.ajax.block_internal?S:[]],(0,i.sU)(e.agentIdentifier,E),void 0===e.api&&(e.api=function(e,t){t||(0,c.R)(e,"api");const g={};var p=a.ee.get(e),v=p.get("tracer"),m="api-",b=m+"ixn-";function y(t,r,n,o){const a=(0,i.C5)(e);return null===r?delete a.jsAttributes[t]:(0,i.CX)(e,{...a,jsAttributes:{...a.jsAttributes,[t]:r}}),_(m,n,!0,o||null===r?"session":void 0)(t,r)}function A(){}h.forEach((e=>{g[e]=_(m,e,!0,"api")})),g.addPageAction=_(m,"addPageAction",!0,n.D.pageAction),g.setCurrentRouteName=_(m,"routeName",!0,n.D.spa),g.setPageViewName=function(t,r){if("string"==typeof t)return"/"!==t.charAt(0)&&(t="/"+t),(0,i.OP)(e).customTransaction=(r||"http://custom.transaction")+t,_(m,"setPageViewName",!0)()},g.setCustomAttribute=function(e,t){let r=arguments.length>2&&void 0!==arguments[2]&&arguments[2];if("string"==typeof e){if(["string","number","boolean"].includes(typeof t)||null===t)return y(e,t,"setCustomAttribute",r);(0,l.Z)("Failed to execute setCustomAttribute.\nNon-null value must be a string, number or boolean type, but a type of <".concat(typeof t,"> was provided."))}else(0,l.Z)("Failed to execute setCustomAttribute.\nName must be a string type, but a type of <".concat(typeof e,"> was provided."))},g.setUserId=function(e){if("string"==typeof e||null===e)return y("enduser.id",e,"setUserId",!0);(0,l.Z)("Failed to execute setUserId.\nNon-null value must be a string type, but a type of <".concat(typeof e,"> was provided."))},g.setApplicationVersion=function(e){if("string"==typeof e||null===e)return y("application.version",e,"setApplicationVersion",!1);(0,l.Z)("Failed to execute setApplicationVersion. Expected <String | null>, but got <".concat(typeof e,">."))},g.start=e=>{try{const t=e?"defined":"undefined";(0,o.p)(f.xS,["API/start/".concat(t,"/called")],void 0,n.D.metrics,p);const r=Object.values(n.D);if(void 0===e)e=r;else{if((e=Array.isArray(e)&&e.length?e:[e]).some((e=>!r.includes(e))))return(0,l.Z)("Invalid feature name supplied. Acceptable feature names are: ".concat(r));e.includes(n.D.pageViewEvent)||e.push(n.D.pageViewEvent)}e.forEach((e=>{p.emit("".concat(e,"-opt-in"))}))}catch(e){(0,l.Z)("An unexpected issue occurred",e)}},g.recordReplay=function(){(0,o.p)(f.xS,["API/recordReplay/called"],void 0,n.D.metrics,p),(0,o.p)("recordReplay",[],void 0,n.D.sessionReplay,p)},g.pauseReplay=function(){(0,o.p)(f.xS,["API/pauseReplay/called"],void 0,n.D.metrics,p),(0,o.p)("pauseReplay",[],void 0,n.D.sessionReplay,p)},g.interaction=function(){return(new A).get()};var w=A.prototype={createTracer:function(e,t){var r={},i=this,a="function"==typeof t;return(0,o.p)(f.xS,["API/createTracer/called"],void 0,n.D.metrics,p),(0,o.p)(b+"tracer",[(0,s.z)(),e,r],i,n.D.spa,p),function(){if(v.emit((a?"":"no-")+"fn-start",[(0,s.z)(),i,a],r),a)try{return t.apply(this,arguments)}catch(e){throw v.emit("fn-err",[arguments,this,e],r),e}finally{v.emit("fn-end",[(0,s.z)()],r)}}}};function _(e,t,r,i){return function(){return(0,o.p)(f.xS,["API/"+t+"/called"],void 0,n.D.metrics,p),i&&(0,o.p)(e+t,[(0,s.z)(),...arguments],r?null:this,i,p),r?void 0:this}}function x(){r.e(75).then(r.bind(r,7438)).then((t=>{let{setAPI:r}=t;r(e),(0,c.L)(e,"api")})).catch((()=>{(0,l.Z)("Downloading runtime APIs failed..."),(0,c.L)(e,"api",!0)}))}return["actionText","setName","setAttribute","save","ignore","onEnd","getContext","end","get"].forEach((e=>{w[e]=_(b,e,void 0,n.D.spa)})),g.noticeError=function(e,t){"string"==typeof e&&(e=new Error(e)),(0,o.p)(f.xS,["API/noticeError/called"],void 0,n.D.metrics,p),(0,o.p)("err",[e,(0,s.z)(),!1,t],void 0,n.D.jserrors,p)},d.il?(0,u.b2)((()=>x()),!0):x(),g}(e.agentIdentifier,A)),void 0===e.exposed&&(e.exposed=D),y=!0}},1926:(e,t,r)=>{r.nc=(()=>{try{return document?.currentScript?.nonce}catch(e){}return""})()},3325:(e,t,r)=>{"use strict";r.d(t,{D:()=>n,p:()=>i});const n={ajax:"ajax",jserrors:"jserrors",metrics:"metrics",pageAction:"page_action",pageViewEvent:"page_view_event",pageViewTiming:"page_view_timing",sessionReplay:"session_replay",sessionTrace:"session_trace",spa:"spa"},i={[n.pageViewEvent]:1,[n.pageViewTiming]:2,[n.metrics]:3,[n.jserrors]:4,[n.ajax]:5,[n.sessionTrace]:6,[n.pageAction]:7,[n.spa]:8,[n.sessionReplay]:9}}},n={};function i(e){var t=n[e];if(void 0!==t)return t.exports;var o=n[e]={exports:{}};return r[e](o,o.exports,i),o.exports}i.m=r,i.d=(e,t)=>{for(var r in t)i.o(t,r)&&!i.o(e,r)&&Object.defineProperty(e,r,{enumerable:!0,get:t[r]})},i.f={},i.e=e=>Promise.all(Object.keys(i.f).reduce(((t,r)=>(i.f[r](e,t),t)),[])),i.u=e=>"nr-rum-1.252.1.min.js",i.o=(e,t)=>Object.prototype.hasOwnProperty.call(e,t),e={},t="NRBA-1.252.1.PROD:",i.l=(r,n,o,a)=>{if(e[r])e[r].push(n);else{var s,c;if(void 0!==o)for(var u=document.getElementsByTagName("script"),d=0;d<u.length;d++){var l=u[d];if(l.getAttribute("src")==r||l.getAttribute("data-webpack")==t+o){s=l;break}}if(!s){c=!0;var f={75:"sha512-coXLfM7RkXRTFzWd9lXnf/fAuVs/D91sUGj0PeykZ9LOawtrZP/2njEtfjyJtUkhEhkSa8dmiYkqP0kHTmBVFA=="};(s=document.createElement("script")).charset="utf-8",s.timeout=120,i.nc&&s.setAttribute("nonce",i.nc),s.setAttribute("data-webpack",t+o),s.src=r,0!==s.src.indexOf(window.location.origin+"/")&&(s.crossOrigin="anonymous"),f[a]&&(s.integrity=f[a])}e[r]=[n];var g=(t,n)=>{s.onerror=s.onload=null,clearTimeout(p);var i=e[r];if(delete e[r],s.parentNode&&s.parentNode.removeChild(s),i&&i.forEach((e=>e(n))),t)return t(n)},p=setTimeout(g.bind(null,void 0,{type:"timeout",target:s}),12e4);s.onerror=g.bind(null,s.onerror),s.onload=g.bind(null,s.onload),c&&document.head.appendChild(s)}},i.r=e=>{"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},i.p="https://js-agent.newrelic.com/",(()=>{var e={50:0,832:0};i.f.j=(t,r)=>{var n=i.o(e,t)?e[t]:void 0;if(0!==n)if(n)r.push(n[2]);else{var o=new Promise(((r,i)=>n=e[t]=[r,i]));r.push(n[2]=o);var a=i.p+i.u(t),s=new Error;i.l(a,(r=>{if(i.o(e,t)&&(0!==(n=e[t])&&(e[t]=void 0),n)){var o=r&&("load"===r.type?"missing":r.type),a=r&&r.target&&r.target.src;s.message="Loading chunk "+t+" failed.\n("+o+": "+a+")",s.name="ChunkLoadError",s.type=o,s.request=a,n[1](s)}}),"chunk-"+t,t)}};var t=(t,r)=>{var n,o,[a,s,c]=r,u=0;if(a.some((t=>0!==e[t]))){for(n in s)i.o(s,n)&&(i.m[n]=s[n]);if(c)c(i)}for(t&&t(r);u<a.length;u++)o=a[u],i.o(e,o)&&e[o]&&e[o][0](),e[o]=0},r=self["webpackChunk:NRBA-1.252.1.PROD"]=self["webpackChunk:NRBA-1.252.1.PROD"]||[];r.forEach(t.bind(null,0)),r.push=t.bind(null,r.push.bind(r))})(),(()=>{"use strict";i(1926);var e=i(50);class t{#e(t){for(var r=arguments.length,n=new Array(r>1?r-1:0),i=1;i<r;i++)n[i-1]=arguments[i];if("function"==typeof this.api?.[t])return this.api[t](...n);(0,e.Z)("Call to agent api ".concat(t," failed. The API is not currently initialized."))}addPageAction(e,t){return this.#e("addPageAction",e,t)}setPageViewName(e,t){return this.#e("setPageViewName",e,t)}setCustomAttribute(e,t,r){return this.#e("setCustomAttribute",e,t,r)}noticeError(e,t){return this.#e("noticeError",e,t)}setUserId(e){return this.#e("setUserId",e)}setApplicationVersion(e){return this.#e("setApplicationVersion",e)}setErrorHandler(e){return this.#e("setErrorHandler",e)}finished(e){return this.#e("finished",e)}addRelease(e,t){return this.#e("addRelease",e,t)}start(e){return this.#e("start",e)}recordReplay(){return this.#e("recordReplay")}pauseReplay(){return this.#e("pauseReplay")}addToTrace(e){return this.#e("addToTrace",e)}setCurrentRouteName(e){return this.#e("setCurrentRouteName",e)}interaction(){return this.#e("interaction")}}var r=i(3325),n=i(234);const o=Object.values(r.D);function a(e){const t={};return o.forEach((r=>{t[r]=function(e,t){return!1!==(0,n.Mt)(t,"".concat(e,".enabled"))}(r,e)})),t}var s=i(8862);var c=i(8e3),u=i(5938),d=i(3960),l=i(385);class f extends u.W{constructor(e,t,r){let i=!(arguments.length>3&&void 0!==arguments[3])||arguments[3];super(e,t,r),this.auto=i,this.abortHandler=void 0,this.featAggregate=void 0,this.onAggregateImported=void 0,!1===(0,n.Mt)(this.agentIdentifier,"".concat(this.featureName,".autoStart"))&&(this.auto=!1),this.auto&&(0,c.R)(e,r)}importAggregator(){let t=arguments.length>0&&void 0!==arguments[0]?arguments[0]:{};if(this.featAggregate)return;if(!this.auto)return void this.ee.on("".concat(this.featureName,"-opt-in"),(()=>{(0,c.R)(this.agentIdentifier,this.featureName),this.auto=!0,this.importAggregator()}));const r=l.il&&!0===(0,n.Mt)(this.agentIdentifier,"privacy.cookies_enabled");let o;this.onAggregateImported=new Promise((e=>{o=e}));const a=async()=>{let n;try{if(r){const{setupAgentSession:e}=await i.e(75).then(i.bind(i,957));n=e(this.agentIdentifier)}}catch(t){(0,e.Z)("A problem occurred when starting up session manager. This page will not start or extend any session.",t)}try{if(!this.shouldImportAgg(this.featureName,n))return(0,c.L)(this.agentIdentifier,this.featureName),void o(!1);const{lazyFeatureLoader:e}=await i.e(75).then(i.bind(i,8582)),{Aggregate:r}=await e(this.featureName,"aggregate");this.featAggregate=new r(this.agentIdentifier,this.aggregator,t),o(!0)}catch(t){(0,e.Z)("Downloading and initializing ".concat(this.featureName," failed..."),t),this.abortHandler?.(),(0,c.L)(this.agentIdentifier,this.featureName,!0),o(!1)}};l.il?(0,d.b2)((()=>a()),!0):a()}shouldImportAgg(e,t){return e!==r.D.sessionReplay||!!n.Yu.MO&&(!1!==(0,n.Mt)(this.agentIdentifier,"session_trace.enabled")&&(!!t?.isNew||!!t?.state.sessionReplayMode))}}var g=i(7633);class p extends f{static featureName=g.t;constructor(e,t){let r=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,t,g.t,r),this.importAggregator()}}var h=i(1117),v=i(1284);class m extends h.w{constructor(e){super(e),this.aggregatedData={}}store(e,t,r,n,i){var o=this.getBucket(e,t,r,i);return o.metrics=function(e,t){t||(t={count:0});return t.count+=1,(0,v.D)(e,(function(e,r){t[e]=b(r,t[e])})),t}(n,o.metrics),o}merge(e,t,r,n,i){var o=this.getBucket(e,t,n,i);if(o.metrics){var a=o.metrics;a.count+=r.count,(0,v.D)(r,(function(e,t){if("count"!==e){var n=a[e],i=r[e];i&&!i.c?a[e]=b(i.t,n):a[e]=function(e,t){if(!t)return e;t.c||(t=y(t.t));return t.min=Math.min(e.min,t.min),t.max=Math.max(e.max,t.max),t.t+=e.t,t.sos+=e.sos,t.c+=e.c,t}(i,a[e])}}))}else o.metrics=r}storeMetric(e,t,r,n){var i=this.getBucket(e,t,r);return i.stats=b(n,i.stats),i}getBucket(e,t,r,n){this.aggregatedData[e]||(this.aggregatedData[e]={});var i=this.aggregatedData[e][t];return i||(i=this.aggregatedData[e][t]={params:r||{}},n&&(i.custom=n)),i}get(e,t){return t?this.aggregatedData[e]&&this.aggregatedData[e][t]:this.aggregatedData[e]}take(e){for(var t={},r="",n=!1,i=0;i<e.length;i++)t[r=e[i]]=A(this.aggregatedData[r]),t[r].length&&(n=!0),delete this.aggregatedData[r];return n?t:null}}function b(e,t){return null==e?function(e){e?e.c++:e={c:1};return e}(t):t?(t.c||(t=y(t.t)),t.c+=1,t.t+=e,t.sos+=e*e,e>t.max&&(t.max=e),e<t.min&&(t.min=e),t):{t:e}}function y(e){return{t:e,min:e,max:e,sos:e*e,c:1}}function A(e){return"object"!=typeof e?[]:(0,v.D)(e,w)}function w(e,t){return t}var _=i(8632),x=i(4402),E=i(4351);var D=i(5546),k=i(7956),j=i(3239),S=i(7894),R=i(9251);class T extends f{static featureName=R.t;constructor(e,t){let r=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,t,R.t,r),l.il&&((0,k.N)((()=>(0,D.p)("docHidden",[(0,S.z)()],void 0,R.t,this.ee)),!0),(0,j.bP)("pagehide",(()=>(0,D.p)("winPagehide",[(0,S.z)()],void 0,R.t,this.ee))),this.importAggregator())}}var I=i(3081);class P extends f{static featureName=I.t9;constructor(e,t){let r=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,t,I.t9,r),this.importAggregator()}}new class extends t{constructor(t){let r=arguments.length>1&&void 0!==arguments[1]?arguments[1]:(0,x.ky)(16);super(),l._A?(this.agentIdentifier=r,this.sharedAggregator=new m({agentIdentifier:this.agentIdentifier}),this.features={},(0,_.h5)(r,this),this.desiredFeatures=new Set(t.features||[]),this.desiredFeatures.add(p),(0,s.j)(this,t,t.loaderType||"agent"),this.run()):(0,e.Z)("Failed to initial the agent. Could not determine the runtime environment.")}get config(){return{info:(0,n.C5)(this.agentIdentifier),init:(0,n.P_)(this.agentIdentifier),loader_config:(0,n.DL)(this.agentIdentifier),runtime:(0,n.OP)(this.agentIdentifier)}}run(){try{const t=a(this.agentIdentifier),n=[...this.desiredFeatures];n.sort(((e,t)=>r.p[e.featureName]-r.p[t.featureName])),n.forEach((n=>{if(t[n.featureName]||n.featureName===r.D.pageViewEvent){const i=function(e){switch(e){case r.D.ajax:return[r.D.jserrors];case r.D.sessionTrace:return[r.D.ajax,r.D.pageViewEvent];case r.D.sessionReplay:return[r.D.sessionTrace];case r.D.pageViewTiming:return[r.D.pageViewEvent];default:return[]}}(n.featureName);i.every((e=>t[e]))||(0,e.Z)("".concat(n.featureName," is enabled but one or more dependent features has been disabled (").concat((0,E.P)(i),"). This may cause unintended consequences or missing data...")),this.features[n.featureName]=new n(this.agentIdentifier,this.sharedAggregator)}}))}catch(t){(0,e.Z)("Failed to initialize all enabled instrument classes (agent aborted) -",t);for(const e in this.features)this.features[e].abortHandler?.();const r=(0,_.fP)();return delete r.initializedAgents[this.agentIdentifier]?.api,delete r.initializedAgents[this.agentIdentifier]?.features,delete this.sharedAggregator,r.ee?.abort(),delete r.ee?.get(this.agentIdentifier),!1}}}({features:[p,T,P],loaderType:"lite"})})()})();</script>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <meta name="description"  content="陳　誠" />
+      <meta name="twitter:card"  content="summary_large_image" />
+      <meta name="twitter:site"  content="@AdobePortfolio" />
+      <meta  property="og:title" content="Cheng Chen" />
+      <meta  property="og:description" content="陳　誠" />
+      <meta  property="og:image" content="https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/255b12af-9688-4d42-a8af-3049e55e30e4_rwc_0x0x1500x1001x1500.jpg?h=a79245fbabd880390350dbb2f15e5a21" />
+        <link rel="icon" href="https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/ecfa4ddb-c5d4-4cde-b2d9-3f8bf094f94f_carw_1x1x32.png?h=55049c19eecb45029ce084f8218b11dd" />
+      <link rel="stylesheet" href="/dist/css/main.css" type="text/css" />
+      <link rel="stylesheet" href="https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/602693776db69eff2d71f00f336935781710132475.css?h=e1ada772f7c4b95fea89d1bd5a026706" type="text/css" />
+    <link rel="canonical" href="https://narumi.me/work" />
+      <title>Koya Narumi</title>
+    <script type="text/javascript" src="//use.typekit.net/ik/rQmR8Hsbjo5hchzst-CLoO8pKdzLxiznbBDM2m7llMXfezIgfHYEBsJzwD9oFDIDWDMD5es8whj3FhjkF2yqFhB8w2bawRFRZAIuwR6D5QZRF24cjA48FQq-pkG0dW83da4XZcNC-Av0jhNlOfG0dcBkiAuTOcu8OfG0SY4zwKuh-AmaOcuoSeNkieZzde8zOcFzdPUlpWgzS1scdhUTdkoRdhXCdcBkiAuTOcu8OYgkdDJlic88ikolpWgzS1scdhUTdkoRdhXCiaiaOcoyS1ml-PolZPJIZhuD-KJIicFDdPG4fwtuIMMjgfMfH6qJXbvbMg6YJMJ7fbKzMsMgeMb6MKG4fJCgIMIjgkMfqMYnkLV7gb.js?cb=a993f0d451719a7fbe0a52ebd9393632a66cc91b" async onload="
+    try {
+      window.Typekit.load();
+    } catch (e) {
+      console.warn('Typekit not loaded.');
+    }
+    "></script>
 </head>
-<body>
-    <header>
-        <h1>Cheng Chen</h1>
- 
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="profile.html">Profile</a></li>
-                <li><a href="artworks.html">Art Works</a></li>
-                <li><a href="publications.html">Publications</a></li>
-                <li><a href="?lang=jp">日本語ページ</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        
-        <section id="introduction">
-            <h2>About Me</h2>
-            <p>Brief introduction about Cheng Chen - a passionate researcher in Computer Vision and aspiring artist. Explore the beauty of simplicity and elegance through my work.</p>
-        </section>
-        
-        <section id="news">
-            <h2>Latest News</h2>
-            <ul>
-                <li>News Item 1</li>
-                <li>News Item 2</li>
-                <!-- Add more news items here -->
-            </ul>
-        </section>
-        
-    </main>
-    <footer>
-        <p>Contact Information</p>
-    </footer>
-</body>
-</html>
+  <body class="transition-enabled">  <div class='page-background-video page-background-video-with-panel'>
+  </div>
+  <div class="js-responsive-nav">
+    <div class="responsive-nav has-social">
+      <div class="close-responsive-click-area js-close-responsive-nav">
+        <div class="close-responsive-button"></div>
+      </div>
+          <nav data-hover-hint="nav">
+            <div class="pages">
+                  <div class="gallery-title"><a href="/work" class="active">Work</a></div>
+      <div class="page-title">
+        <a href="/profile" >Profile</a>
+      </div>
+      <div class="link-title">
+        <a href="https://www.dropbox.com/s/7nj8w1keghakkmc/narumi_cv_20220405.pdf?dl=0" target="_blank">CV</a>
+      </div>
+      <div class="page-title">
+        <a href="/contact" >Contact</a>
+      </div>
+      <div class="page-title">
+        <a href="/lecture" >Lecture</a>
+      </div>
+            </div>
+              <div class="social pf-nav-social" data-hover-hint="navSocialIcons">
+                <ul>
+                        <li>
+                          <a href="https://twitter.com/koya_narumi" target="_blank">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="-8 -3 35 24" xml:space="preserve" class="icon"><path d="M10.4 7.4 16.9 0h-1.5L9.7 6.4 5.2 0H0l6.8 9.7L0 17.4h1.5l5.9-6.8 4.7 6.8h5.2l-6.9-10ZM8.3 9.8l-.7-1-5.5-7.6h2.4l4.4 6.2.7 1 5.7 8h-2.4L8.3 9.8Z"/></svg>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="https://www.facebook.com/profile.php?id=100005095426373" target="_blank">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 30 24" xml:space="preserve" class="icon"><path d="M16.21 20h-3.26v-8h-1.63V9.24h1.63V7.59c0-2.25 0.92-3.59 3.53-3.59h2.17v2.76H17.3 c-1.02 0-1.08 0.39-1.08 1.11l0 1.38h2.46L18.38 12h-2.17V20z"/></svg>
+                          </a>
+                        </li>
+                </ul>
+              </div>
+          </nav>
+    </div>
+  </div>
+  <div class="site-wrap cfix js-site-wrap">
+      <header class="site-header" data-context="theme.topcontainer" data-hover-hint="header">
+          <div class="logo-wrap" data-hover-hint="logo">
+                <div class="logo e2e-site-logo-text logo-text  ">
+    <a href="/work" class="preserve-whitespace">Koya Narumi</a>
 
-<script>
-// Example: Changes background color on scroll
-window.addEventListener('scroll', function() {
-    document.body.style.backgroundColor = "#e6e6e6"; // Changes to a different shade of white on scroll
-});
+</div>
+          </div>
+  <div class="hamburger-click-area js-hamburger">
+    <div class="hamburger">
+      <i></i>
+      <i></i>
+      <i></i>
+    </div>
+  </div>
+            <nav data-hover-hint="nav">
+              <div class="pages">
+                  <div class="gallery-title"><a href="/work" class="active">Work</a></div>
+      <div class="page-title">
+        <a href="/profile" >Profile</a>
+      </div>
+      <div class="link-title">
+        <a href="https://www.dropbox.com/s/7nj8w1keghakkmc/narumi_cv_20220405.pdf?dl=0" target="_blank">CV</a>
+      </div>
+      <div class="page-title">
+        <a href="/contact" >Contact</a>
+      </div>
+      <div class="page-title">
+        <a href="/lecture" >Lecture</a>
+      </div>
+              </div>
+                <div class="social pf-nav-social" data-hover-hint="navSocialIcons">
+                  <ul>
+                          <li>
+                            <a href="https://twitter.com/koya_narumi" target="_blank">
+                              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="-8 -3 35 24" xml:space="preserve" class="icon"><path d="M10.4 7.4 16.9 0h-1.5L9.7 6.4 5.2 0H0l6.8 9.7L0 17.4h1.5l5.9-6.8 4.7 6.8h5.2l-6.9-10ZM8.3 9.8l-.7-1-5.5-7.6h2.4l4.4 6.2.7 1 5.7 8h-2.4L8.3 9.8Z"/></svg>
+                            </a>
+                          </li>
+                          <li>
+                            <a href="https://www.facebook.com/profile.php?id=100005095426373" target="_blank">
+                              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 30 24" xml:space="preserve" class="icon"><path d="M16.21 20h-3.26v-8h-1.63V9.24h1.63V7.59c0-2.25 0.92-3.59 3.53-3.59h2.17v2.76H17.3 c-1.02 0-1.08 0.39-1.08 1.11l0 1.38h2.46L18.38 12h-2.17V20z"/></svg>
+                            </a>
+                          </li>
+                  </ul>
+                </div>
+            </nav>
+      </header>
+    <div class="site-container">
+      <div class="site-content e2e-site-content">
+        <main>
+          <section class="project-covers" data-context="page.gallery.covers">
+          <a class="project-cover js-project-cover-touch hold-space" href="/type-x" data-context="pages" data-identity="id:p65eb11ff465cb28509d4f3cc2e14041890272ca26a5cf92784ead" data-hover-hint-id="p65eb11ff465cb28509d4f3cc2e14041890272ca26a5cf92784ead" data-hover-hint="galleryPageCover">
+              <div class="cover-image-wrap">
+                <div class="cover-image">
+                    <div class="cover cover-normal">
+
+            <img
+              class="cover__img js-lazy"
+              src="https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/96c199d7-eacf-4cc4-bd66-d956461aff60_rwc_0x218x2000x1563x32.jpg?h=dc9ec899cd3c220ba5ce673f46927656"
+              data-src="https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/96c199d7-eacf-4cc4-bd66-d956461aff60_rwc_0x218x2000x1563x2000.jpg?h=8af71d97388e79fb1c95258f46e2f663"
+              data-srcset="https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/96c199d7-eacf-4cc4-bd66-d956461aff60_rwc_0x218x2000x1563x640.jpg?h=950a73d542e0da84b3396a94e0b5766e 640w, https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/96c199d7-eacf-4cc4-bd66-d956461aff60_rwc_0x218x2000x1563x1280.jpg?h=7c231779454a275f99462b928a1b4453 1280w, https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/96c199d7-eacf-4cc4-bd66-d956461aff60_rwc_0x218x2000x1563x1366.jpg?h=97aa5cd8f458154ee0873c51fb983849 1366w, https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/96c199d7-eacf-4cc4-bd66-d956461aff60_rwc_0x218x2000x1563x1920.jpg?h=255eb55237ec1563beb484259a6bb85f 1920w, https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/96c199d7-eacf-4cc4-bd66-d956461aff60_rwc_0x218x2000x1563x2000.jpg?h=8af71d97388e79fb1c95258f46e2f663 2560w, https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/96c199d7-eacf-4cc4-bd66-d956461aff60_rwc_0x218x2000x1563x2000.jpg?h=8af71d97388e79fb1c95258f46e2f663 5120w"
+              data-sizes="(max-width: 540px) 100vw, (max-width: 768px) 50vw, calc(1400px / 3)"
+            >
+                              </div>
+                </div>
+              </div>
+            <div class="details-wrap">
+              <div class="details">
+                <div class="details-inner">
+                    <div class="title preserve-whitespace">TYPE-X Inkjet 4D Print project</div>
+                    <div class="custom1 preserve-whitespace">A-POC ABLE ISSEY MIYAKE &quot;So the Journey Continues,&quot; 2024</div>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a class="project-cover js-project-cover-touch hold-space" href="/inkjet4dprint" data-context="pages" data-identity="id:p649e6e862984ecdd83d024840e370482444b25f75cf6c0edd394b" data-hover-hint-id="p649e6e862984ecdd83d024840e370482444b25f75cf6c0edd394b" data-hover-hint="galleryPageCover">
+              <div class="cover-image-wrap">
+                <div class="cover-image">
+                    <div class="cover cover-normal">
+
+            <img
+              class="cover__img js-lazy"
+              src="https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/ddee105e-968d-4ad3-8231-b7efdf37903d_rwc_220x0x2558x2000x32.jpg?h=55bc94f9329beac7b9db0aeebf338e6b"
+              data-src="https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/ddee105e-968d-4ad3-8231-b7efdf37903d_rwc_220x0x2558x2000x2558.jpg?h=ad4125eddb66b8398b38b3c585645a50"
+              data-srcset="https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/ddee105e-968d-4ad3-8231-b7efdf37903d_rwc_220x0x2558x2000x640.jpg?h=c8f856caad2f337cbcc0a12ccf66858f 640w, https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/ddee105e-968d-4ad3-8231-b7efdf37903d_rwc_220x0x2558x2000x1280.jpg?h=388813d554706f8149661232438b257d 1280w, https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/ddee105e-968d-4ad3-8231-b7efdf37903d_rwc_220x0x2558x2000x1366.jpg?h=37b7ac479f03da1ef1119f1501733486 1366w, https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/ddee105e-968d-4ad3-8231-b7efdf37903d_rwc_220x0x2558x2000x1920.jpg?h=344c7464646308c5aa41246514f3ada7 1920w, https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/ddee105e-968d-4ad3-8231-b7efdf37903d_rwc_220x0x2558x2000x2560.jpg?h=e262e479dd518abdbab36fe03cde75c2 2560w, https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/ddee105e-968d-4ad3-8231-b7efdf37903d_rwc_220x0x2558x2000x2558.jpg?h=ad4125eddb66b8398b38b3c585645a50 5120w"
+              data-sizes="(max-width: 540px) 100vw, (max-width: 768px) 50vw, calc(1400px / 3)"
+            >
+                              </div>
+                </div>
+              </div>
+            <div class="details-wrap">
+              <div class="details">
+                <div class="details-inner">
+                    <div class="title preserve-whitespace">Inkjet 4D Print</div>
+                    <div class="custom1 preserve-whitespace">TOG (SIGGRAPH) 2023</div>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a class="project-cover js-project-cover-touch hold-space" href="/flower-jelly-printer-1" data-context="pages" data-identity="id:p649e6bcbcef48f06ac3d577913353b2cf68b6550dc8fae152010e" data-hover-hint-id="p649e6bcbcef48f06ac3d577913353b2cf68b6550dc8fae152010e" data-hover-hint="galleryPageCover">
+              <div class="cover-image-wrap">
+                <div class="cover-image">
+                    <div class="cover cover-normal">
+
+            <img
+              class="cover__img js-lazy"
+              src="https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/c3c85670-7729-4d80-a6e5-d36754c38065_rwc_407x0x4721x3691x32.jpg?h=c1eb15c0f03f7600ef73447e9450b0f4"
+              data-src="https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/c3c85670-7729-4d80-a6e5-d36754c38065_rwc_407x0x4721x3691x4721.jpg?h=bec3cedb0aae74222ede4bb7fc16f454"
+              data-srcset="https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/c3c85670-7729-4d80-a6e5-d36754c38065_rwc_407x0x4721x3691x640.jpg?h=67f0926c1d6686a756e7bbd2d7e8a4b2 640w, https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/c3c85670-7729-4d80-a6e5-d36754c38065_rwc_407x0x4721x3691x1280.jpg?h=86d26fbc35cadddb9448ff5cbe07901e 1280w, https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/c3c85670-7729-4d80-a6e5-d36754c38065_rwc_407x0x4721x3691x1366.jpg?h=7f912f3dad10f455f6a6c48cf1fe40d2 1366w, https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/c3c85670-7729-4d80-a6e5-d36754c38065_rwc_407x0x4721x3691x1920.jpg?h=a3bb3abe00037e90fb073e0925d0f2f5 1920w, https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/c3c85670-7729-4d80-a6e5-d36754c38065_rwc_407x0x4721x3691x2560.jpg?h=f20ed08acfd0632b919293c1e9fd701f 2560w, https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/c3c85670-7729-4d80-a6e5-d36754c38065_rwc_407x0x4721x3691x5120.jpg?h=e38ca42d8c0b6a0ba7d5d7799fc91460 5120w"
+              data-sizes="(max-width: 540px) 100vw, (max-width: 768px) 50vw, calc(1400px / 3)"
+            >
+                              </div>
+                </div>
+              </div>
+            <div class="details-wrap">
+              <div class="details">
+                <div class="details-inner">
+                    <div class="title preserve-whitespace">Crane</div>
+                    <div class="custom1 preserve-whitespace">TOCHI (CHI) 2023</div>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a class="project-cover js-project-cover-touch hold-space" href="/flower-jelly-printer" data-context="pages" data-identity="id:p60dedb58498eab649b2a5e6f0491e8f6d34868a275bfdcf107a5b" data-hover-hint-id="p60dedb58498eab649b2a5e6f0491e8f6d34868a275bfdcf107a5b" data-hover-hint="galleryPageCover">
+              <div class="cover-image-wrap">
+                <div class="cover-image">
+                    <div class="cover cover-normal">
+
+            <img
+              class="cover__img js-lazy"
+              src="https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/7e60a349-916d-4399-858a-2fbadadcb652_rwc_172x64x1584x1239x32.jpg?h=95396d1cef35dffc4e392730da7c5169"
+              data-src="https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/7e60a349-916d-4399-858a-2fbadadcb652_rwc_172x64x1584x1239x1584.jpg?h=6e66b411430e67ca5afcf5b7a81737d2"
+              data-srcset="https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/7e60a349-916d-4399-858a-2fbadadcb652_rwc_172x64x1584x1239x640.jpg?h=eff5aac6a7f92b119e429d8877fb58e2 640w, https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/7e60a349-916d-4399-858a-2fbadadcb652_rwc_172x64x1584x1239x1280.jpg?h=df29b60850a1d31bd3462936be8f6736 1280w, https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/7e60a349-916d-4399-858a-2fbadadcb652_rwc_172x64x1584x1239x1366.jpg?h=f04d4932e2815ec63e16e22578d8a71f 1366w, https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/7e60a349-916d-4399-858a-2fbadadcb652_rwc_172x64x1584x1239x1920.jpg?h=9411efcd079253158b739b45368c29ab 1920w, https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/7e60a349-916d-4399-858a-2fbadadcb652_rwc_172x64x1584x1239x1584.jpg?h=6e66b411430e67ca5afcf5b7a81737d2 2560w, https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/7e60a349-916d-4399-858a-2fbadadcb652_rwc_172x64x1584x1239x1584.jpg?h=6e66b411430e67ca5afcf5b7a81737d2 5120w"
+              data-sizes="(max-width: 540px) 100vw, (max-width: 768px) 50vw, calc(1400px / 3)"
+            >
+                              </div>
+                </div>
+              </div>
+            <div class="details-wrap">
+              <div class="details">
+                <div class="details-inner">
+                    <div class="title preserve-whitespace">Flower Jelly Printer</div>
+                    <div class="custom1 preserve-whitespace">CHI 2021</div>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a class="project-cover js-project-cover-touch hold-space" href="/poimo" data-context="pages" data-identity="id:p60dedae00c477077237a36da83c763c24ab3ad99d1a6e84b2b48a" data-hover-hint-id="p60dedae00c477077237a36da83c763c24ab3ad99d1a6e84b2b48a" data-hover-hint="galleryPageCover">
+              <div class="cover-image-wrap">
+                <div class="cover-image">
+                    <div class="cover cover-normal">
+
+            <img
+              class="cover__img js-lazy"
+              src="https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/201fd0c2-febd-4ab8-9b33-df8f71affe17_rwc_270x0x1381x1080x32.png?h=d1c178b6ca8c52ff288b387f483469c0"
+              data-src="https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/201fd0c2-febd-4ab8-9b33-df8f71affe17_rwc_270x0x1381x1080x1381.png?h=6fe8dc45d7738cc69054fc0402925e45"
+              data-srcset="https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/201fd0c2-febd-4ab8-9b33-df8f71affe17_rwc_270x0x1381x1080x640.png?h=5b0377229297d2c41b7c4f8069b02131 640w, https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/201fd0c2-febd-4ab8-9b33-df8f71affe17_rwc_270x0x1381x1080x1280.png?h=f190f27e5a638ca814819a046496b8f6 1280w, https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/201fd0c2-febd-4ab8-9b33-df8f71affe17_rwc_270x0x1381x1080x1366.png?h=d46896623a33abb8232e58b83417c12c 1366w, https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/201fd0c2-febd-4ab8-9b33-df8f71affe17_rwc_270x0x1381x1080x1920.png?h=d09f17452c4e9d29db706675733cc8a7 1920w, https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/201fd0c2-febd-4ab8-9b33-df8f71affe17_rwc_270x0x1381x1080x1381.png?h=6fe8dc45d7738cc69054fc0402925e45 2560w, https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/201fd0c2-febd-4ab8-9b33-df8f71affe17_rwc_270x0x1381x1080x1381.png?h=6fe8dc45d7738cc69054fc0402925e45 5120w"
+              data-sizes="(max-width: 540px) 100vw, (max-width: 768px) 50vw, calc(1400px / 3)"
+            >
+                              </div>
+                </div>
+              </div>
+            <div class="details-wrap">
+              <div class="details">
+                <div class="details-inner">
+                    <div class="title preserve-whitespace">poimo</div>
+                    <div class="custom1 preserve-whitespace">UIST 2020</div>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a class="project-cover js-project-cover-touch hold-space" href="/pop-up-print" data-context="pages" data-identity="id:p60ded8c665d5e7143c2a2768f5e5d1ea9496a56b8d75851d85fdd" data-hover-hint-id="p60ded8c665d5e7143c2a2768f5e5d1ea9496a56b8d75851d85fdd" data-hover-hint="galleryPageCover">
+              <div class="cover-image-wrap">
+                <div class="cover-image">
+                    <div class="cover cover-normal">
+
+            <img
+              class="cover__img js-lazy"
+              src="https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/2766b1f1-ba4a-4e86-aa73-be35d588ed3e_rwc_295x0x1381x1080x32.jpg?h=6f7d3f71d700781717fad4eb79dcab91"
+              data-src="https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/2766b1f1-ba4a-4e86-aa73-be35d588ed3e_rwc_295x0x1381x1080x1381.jpg?h=92ee09c13037d008e5feffaf053cb98e"
+              data-srcset="https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/2766b1f1-ba4a-4e86-aa73-be35d588ed3e_rwc_295x0x1381x1080x640.jpg?h=006af0f67955660fdd14893f9419eb6d 640w, https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/2766b1f1-ba4a-4e86-aa73-be35d588ed3e_rwc_295x0x1381x1080x1280.jpg?h=8cbfb4ffdcd8346ea6ba8633aad22a88 1280w, https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/2766b1f1-ba4a-4e86-aa73-be35d588ed3e_rwc_295x0x1381x1080x1366.jpg?h=eeb03719ba43f3c54a25dc0a485f6398 1366w, https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/2766b1f1-ba4a-4e86-aa73-be35d588ed3e_rwc_295x0x1381x1080x1920.jpg?h=1ffe0709a3b7cdf92f0b9935ba50955f 1920w, https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/2766b1f1-ba4a-4e86-aa73-be35d588ed3e_rwc_295x0x1381x1080x1381.jpg?h=92ee09c13037d008e5feffaf053cb98e 2560w, https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/2766b1f1-ba4a-4e86-aa73-be35d588ed3e_rwc_295x0x1381x1080x1381.jpg?h=92ee09c13037d008e5feffaf053cb98e 5120w"
+              data-sizes="(max-width: 540px) 100vw, (max-width: 768px) 50vw, calc(1400px / 3)"
+            >
+                              </div>
+                </div>
+              </div>
+            <div class="details-wrap">
+              <div class="details">
+                <div class="details-inner">
+                    <div class="title preserve-whitespace">Pop-up Print</div>
+                    <div class="custom1 preserve-whitespace">UIST 2020</div>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a class="project-cover js-project-cover-touch hold-space" href="/kirigami-haptic-swatches" data-context="pages" data-identity="id:p60ded654288e27655ce36059bfefd5b7c5a9a927e848784cfb76c" data-hover-hint-id="p60ded654288e27655ce36059bfefd5b7c5a9a927e848784cfb76c" data-hover-hint="galleryPageCover">
+              <div class="cover-image-wrap">
+                <div class="cover-image">
+                    <div class="cover cover-normal">
+
+            <img
+              class="cover__img js-lazy"
+              src="https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/fe058178-d36c-4997-8dd2-91062bdd9e60_rwc_148x0x3274x2560x32.jpg?h=ac3f157b6371e6011c66da5ead0fda93"
+              data-src="https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/fe058178-d36c-4997-8dd2-91062bdd9e60_rwc_148x0x3274x2560x3274.jpg?h=41be101454a63e8753ea1f0307cbfee7"
+              data-srcset="https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/fe058178-d36c-4997-8dd2-91062bdd9e60_rwc_148x0x3274x2560x640.jpg?h=3a07a2bfd4f5ba66221532844ac082a5 640w, https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/fe058178-d36c-4997-8dd2-91062bdd9e60_rwc_148x0x3274x2560x1280.jpg?h=177ae8c294d61ae95c3d98180c43b456 1280w, https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/fe058178-d36c-4997-8dd2-91062bdd9e60_rwc_148x0x3274x2560x1366.jpg?h=2add4dd383fedc5aa8321dc9b517c740 1366w, https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/fe058178-d36c-4997-8dd2-91062bdd9e60_rwc_148x0x3274x2560x1920.jpg?h=9c7f6dfc7e1c4951eed69ffcc0812e54 1920w, https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/fe058178-d36c-4997-8dd2-91062bdd9e60_rwc_148x0x3274x2560x2560.jpg?h=9544fdc1b8b690ea00aa892f4bdbbd7d 2560w, https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/fe058178-d36c-4997-8dd2-91062bdd9e60_rwc_148x0x3274x2560x3274.jpg?h=41be101454a63e8753ea1f0307cbfee7 5120w"
+              data-sizes="(max-width: 540px) 100vw, (max-width: 768px) 50vw, calc(1400px / 3)"
+            >
+                              </div>
+                </div>
+              </div>
+            <div class="details-wrap">
+              <div class="details">
+                <div class="details-inner">
+                    <div class="title preserve-whitespace">Kirigami Haptic Swatches</div>
+                    <div class="custom1 preserve-whitespace">CHI 2020</div>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a class="project-cover js-project-cover-touch hold-space" href="/liquid-pouch-motors" data-context="pages" data-identity="id:p60ded510298ab68af04b5c35b0f3a457ed20a112947a2a6aaf73c" data-hover-hint-id="p60ded510298ab68af04b5c35b0f3a457ed20a112947a2a6aaf73c" data-hover-hint="galleryPageCover">
+              <div class="cover-image-wrap">
+                <div class="cover-image">
+                    <div class="cover cover-normal">
+
+            <img
+              class="cover__img js-lazy"
+              src="https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/88f60a26-355a-4715-928c-fcc18e6fe30a_rwc_1013x0x787x616x32.jpg?h=3c2e29d4be99246504aefd442c6ceccc"
+              data-src="https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/88f60a26-355a-4715-928c-fcc18e6fe30a_rwc_1013x0x787x616x787.jpg?h=06d9c4928fa4465a528a948b462fbc09"
+              data-srcset="https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/88f60a26-355a-4715-928c-fcc18e6fe30a_rwc_1013x0x787x616x640.jpg?h=9eb8f35fbc6d7feb7e6a94dcf0b4e976 640w, https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/88f60a26-355a-4715-928c-fcc18e6fe30a_rwc_1013x0x787x616x1280.jpg?h=c379dafb71e858bb9e4ed402829e6ce2 1280w, https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/88f60a26-355a-4715-928c-fcc18e6fe30a_rwc_1013x0x787x616x1366.jpg?h=eb4dbf60eb8346d2f7ea5593170f7479 1366w, https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/88f60a26-355a-4715-928c-fcc18e6fe30a_rwc_1013x0x787x616x1920.jpg?h=ead4624eee08e88b0898d23e020843df 1920w, https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/88f60a26-355a-4715-928c-fcc18e6fe30a_rwc_1013x0x787x616x787.jpg?h=06d9c4928fa4465a528a948b462fbc09 2560w, https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/88f60a26-355a-4715-928c-fcc18e6fe30a_rwc_1013x0x787x616x787.jpg?h=06d9c4928fa4465a528a948b462fbc09 5120w"
+              data-sizes="(max-width: 540px) 100vw, (max-width: 768px) 50vw, calc(1400px / 3)"
+            >
+                              </div>
+                </div>
+              </div>
+            <div class="details-wrap">
+              <div class="details">
+                <div class="details-inner">
+                    <div class="title preserve-whitespace">Liquid Pouch Motors</div>
+                    <div class="custom1 preserve-whitespace">RA-L 2020</div>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a class="project-cover js-project-cover-touch hold-space" href="/silver-tape" data-context="pages" data-identity="id:p60ded4eab3435c26e1a0348e6c119cee7bbe409142e71dba7f247" data-hover-hint-id="p60ded4eab3435c26e1a0348e6c119cee7bbe409142e71dba7f247" data-hover-hint="galleryPageCover">
+              <div class="cover-image-wrap">
+                <div class="cover-image">
+                    <div class="cover cover-normal">
+
+            <img
+              class="cover__img js-lazy"
+              src="https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/967fce3d-c7e3-4ef2-bad8-ff035514856e_rwc_964x0x2790x2182x32.jpg?h=f5a6d2ebb736f2707f936e84c20eea91"
+              data-src="https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/967fce3d-c7e3-4ef2-bad8-ff035514856e_rwc_964x0x2790x2182x2790.jpg?h=06cc8d0f6133593f389713724e3b31b5"
+              data-srcset="https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/967fce3d-c7e3-4ef2-bad8-ff035514856e_rwc_964x0x2790x2182x640.jpg?h=31514d47a2f47a9d8ae73b642508a8ea 640w, https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/967fce3d-c7e3-4ef2-bad8-ff035514856e_rwc_964x0x2790x2182x1280.jpg?h=6046a3575fa5e563d743befc01ce79d8 1280w, https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/967fce3d-c7e3-4ef2-bad8-ff035514856e_rwc_964x0x2790x2182x1366.jpg?h=7972625299ad5f028325a28a4faf3e58 1366w, https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/967fce3d-c7e3-4ef2-bad8-ff035514856e_rwc_964x0x2790x2182x1920.jpg?h=c155f660e6629e4b4d1b7ea031b7549a 1920w, https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/967fce3d-c7e3-4ef2-bad8-ff035514856e_rwc_964x0x2790x2182x2560.jpg?h=9b1d2cc73223a643f974dff287a8d302 2560w, https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/967fce3d-c7e3-4ef2-bad8-ff035514856e_rwc_964x0x2790x2182x2790.jpg?h=06cc8d0f6133593f389713724e3b31b5 5120w"
+              data-sizes="(max-width: 540px) 100vw, (max-width: 768px) 50vw, calc(1400px / 3)"
+            >
+                              </div>
+                </div>
+              </div>
+            <div class="details-wrap">
+              <div class="details">
+                <div class="details-inner">
+                    <div class="title preserve-whitespace">Silver Tape</div>
+                    <div class="custom1 preserve-whitespace">IMWUT 2020</div>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a class="project-cover js-project-cover-touch hold-space" href="/self-healing-ui" data-context="pages" data-identity="id:p5d5ced26c111ed56f77a71efb74819606e6cd94f0f60c522ed618" data-hover-hint-id="p5d5ced26c111ed56f77a71efb74819606e6cd94f0f60c522ed618" data-hover-hint="galleryPageCover">
+              <div class="cover-image-wrap">
+                <div class="cover-image">
+                    <div class="cover cover-normal">
+
+            <img
+              class="cover__img js-lazy"
+              src="https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/cb0ddb0f-ee1f-4958-b3fe-1678eddf8ea3_rwc_92x0x1690x1322x32.jpg?h=e63f0560a75aca55b5c985171616636e"
+              data-src="https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/cb0ddb0f-ee1f-4958-b3fe-1678eddf8ea3_rwc_92x0x1690x1322x1690.jpg?h=93e5e5e05d14cef1e087b172874f2161"
+              data-srcset="https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/cb0ddb0f-ee1f-4958-b3fe-1678eddf8ea3_rwc_92x0x1690x1322x640.jpg?h=0d983ba6f7d95318651ba513e39ea196 640w, https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/cb0ddb0f-ee1f-4958-b3fe-1678eddf8ea3_rwc_92x0x1690x1322x1280.jpg?h=48e605a96efbe8f62575dc4602e4291b 1280w, https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/cb0ddb0f-ee1f-4958-b3fe-1678eddf8ea3_rwc_92x0x1690x1322x1366.jpg?h=29a02037d8ec17c97f7b72dd5f49c7e1 1366w, https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/cb0ddb0f-ee1f-4958-b3fe-1678eddf8ea3_rwc_92x0x1690x1322x1920.jpg?h=92b239bb2151e4a58d759862069ee77a 1920w, https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/cb0ddb0f-ee1f-4958-b3fe-1678eddf8ea3_rwc_92x0x1690x1322x1690.jpg?h=93e5e5e05d14cef1e087b172874f2161 2560w, https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/cb0ddb0f-ee1f-4958-b3fe-1678eddf8ea3_rwc_92x0x1690x1322x1690.jpg?h=93e5e5e05d14cef1e087b172874f2161 5120w"
+              data-sizes="(max-width: 540px) 100vw, (max-width: 768px) 50vw, calc(1400px / 3)"
+            >
+                              </div>
+                </div>
+              </div>
+            <div class="details-wrap">
+              <div class="details">
+                <div class="details-inner">
+                    <div class="title preserve-whitespace">Self-healing UI</div>
+                    <div class="custom1 preserve-whitespace">UIST2019</div>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a class="project-cover js-project-cover-touch hold-space" href="/a-live-un-live" data-context="pages" data-identity="id:p5d5ce484cf299bf2f26780c5531ae6c4601130e0bd63fb19e8d78" data-hover-hint-id="p5d5ce484cf299bf2f26780c5531ae6c4601130e0bd63fb19e8d78" data-hover-hint="galleryPageCover">
+              <div class="cover-image-wrap">
+                <div class="cover-image">
+                    <div class="cover cover-normal">
+
+            <img
+              class="cover__img js-lazy"
+              src="https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/efe1fe4c-8ed5-46f7-9b9a-45a5a30a9b8f_rwc_0x383x1067x834x32.jpg?h=764c5943bc8bdadf42ded886bbcdb0c9"
+              data-src="https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/efe1fe4c-8ed5-46f7-9b9a-45a5a30a9b8f_rwc_0x383x1067x834x1067.jpg?h=c05520df8e7f8997148601c09edc0d84"
+              data-srcset="https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/efe1fe4c-8ed5-46f7-9b9a-45a5a30a9b8f_rwc_0x383x1067x834x640.jpg?h=ee11d9fa93deaf4b24e59279525465aa 640w, https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/efe1fe4c-8ed5-46f7-9b9a-45a5a30a9b8f_rwc_0x383x1067x834x1067.jpg?h=c05520df8e7f8997148601c09edc0d84 1280w, https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/efe1fe4c-8ed5-46f7-9b9a-45a5a30a9b8f_rwc_0x383x1067x834x1067.jpg?h=c05520df8e7f8997148601c09edc0d84 1366w, https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/efe1fe4c-8ed5-46f7-9b9a-45a5a30a9b8f_rwc_0x383x1067x834x1067.jpg?h=c05520df8e7f8997148601c09edc0d84 1920w, https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/efe1fe4c-8ed5-46f7-9b9a-45a5a30a9b8f_rwc_0x383x1067x834x1067.jpg?h=c05520df8e7f8997148601c09edc0d84 2560w, https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/efe1fe4c-8ed5-46f7-9b9a-45a5a30a9b8f_rwc_0x383x1067x834x1067.jpg?h=c05520df8e7f8997148601c09edc0d84 5120w"
+              data-sizes="(max-width: 540px) 100vw, (max-width: 768px) 50vw, calc(1400px / 3)"
+            >
+                              </div>
+                </div>
+              </div>
+            <div class="details-wrap">
+              <div class="details">
+                <div class="details-inner">
+                    <div class="title preserve-whitespace">A LIVE UN LIVE</div>
+                    <div class="custom1 preserve-whitespace">Roppongi Crossing 2019</div>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a class="project-cover js-project-cover-touch hold-space" href="/papilion" data-context="pages" data-identity="id:p59ef43ab217a778a98caeaff7abbbc8d06b64f722d59134d63674" data-hover-hint-id="p59ef43ab217a778a98caeaff7abbbc8d06b64f722d59134d63674" data-hover-hint="galleryPageCover">
+              <div class="cover-image-wrap">
+                <div class="cover-image">
+                    <div class="cover cover-normal">
+
+            <img
+              class="cover__img js-lazy"
+              src="https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/28ca135a-3bdf-4ace-a22a-eaf12d9dd8e2_rwc_141x0x1637x1280x32.jpg?h=4a232d02c0c61da9ba9d5a75cded465f"
+              data-src="https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/28ca135a-3bdf-4ace-a22a-eaf12d9dd8e2_rwc_141x0x1637x1280x1637.jpg?h=beecc61e75c4c92bcc65357a5cad292b"
+              data-srcset="https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/28ca135a-3bdf-4ace-a22a-eaf12d9dd8e2_rwc_141x0x1637x1280x640.jpg?h=7db39448c75301b32743fc992f8fef69 640w, https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/28ca135a-3bdf-4ace-a22a-eaf12d9dd8e2_rwc_141x0x1637x1280x1280.jpg?h=aead5097d901eb2ea80163a4ead5c83b 1280w, https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/28ca135a-3bdf-4ace-a22a-eaf12d9dd8e2_rwc_141x0x1637x1280x1366.jpg?h=fea10487a86294c1c1251c7c4b4db0b2 1366w, https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/28ca135a-3bdf-4ace-a22a-eaf12d9dd8e2_rwc_141x0x1637x1280x1920.jpg?h=7163d897bcc0153d2109c99d56680908 1920w, https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/28ca135a-3bdf-4ace-a22a-eaf12d9dd8e2_rwc_141x0x1637x1280x1637.jpg?h=beecc61e75c4c92bcc65357a5cad292b 2560w, https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/28ca135a-3bdf-4ace-a22a-eaf12d9dd8e2_rwc_141x0x1637x1280x1637.jpg?h=beecc61e75c4c92bcc65357a5cad292b 5120w"
+              data-sizes="(max-width: 540px) 100vw, (max-width: 768px) 50vw, calc(1400px / 3)"
+            >
+                              </div>
+                </div>
+              </div>
+            <div class="details-wrap">
+              <div class="details">
+                <div class="details-inner">
+                    <div class="title preserve-whitespace">Papilion</div>
+                    <div class="custom1 preserve-whitespace">Ars Electronica 2017</div>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a class="project-cover js-project-cover-touch hold-space" href="/electric-phase-change-actuator" data-context="pages" data-identity="id:p59ef4945980ed225aceafbe75a6ff0580cd077aea4270d519574b" data-hover-hint-id="p59ef4945980ed225aceafbe75a6ff0580cd077aea4270d519574b" data-hover-hint="galleryPageCover">
+              <div class="cover-image-wrap">
+                <div class="cover-image">
+                    <div class="cover cover-normal">
+
+            <img
+              class="cover__img js-lazy"
+              src="https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/7e602327-49e0-47b8-848d-d73b7667b51a_rwc_282x0x3275x2561x32.jpg?h=594e902d35ba85c35200b11b879ba576"
+              data-src="https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/7e602327-49e0-47b8-848d-d73b7667b51a_rwc_282x0x3275x2561x3275.jpg?h=eb516a80c1634e6c66b4c70fb21bbb52"
+              data-srcset="https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/7e602327-49e0-47b8-848d-d73b7667b51a_rwc_282x0x3275x2561x640.jpg?h=cc4c6606dc1ff082010d6e759812da5f 640w, https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/7e602327-49e0-47b8-848d-d73b7667b51a_rwc_282x0x3275x2561x1280.jpg?h=1ad55d9a316fe127051cde115be1d3c2 1280w, https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/7e602327-49e0-47b8-848d-d73b7667b51a_rwc_282x0x3275x2561x1366.jpg?h=196d9cadd38aab1825384e67d8762c0e 1366w, https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/7e602327-49e0-47b8-848d-d73b7667b51a_rwc_282x0x3275x2561x1920.jpg?h=3b1ec87293c2228f541259864a826d11 1920w, https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/7e602327-49e0-47b8-848d-d73b7667b51a_rwc_282x0x3275x2561x2560.jpg?h=d84573cd9bdfa168648298f72a415dee 2560w, https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/7e602327-49e0-47b8-848d-d73b7667b51a_rwc_282x0x3275x2561x3275.jpg?h=eb516a80c1634e6c66b4c70fb21bbb52 5120w"
+              data-sizes="(max-width: 540px) 100vw, (max-width: 768px) 50vw, calc(1400px / 3)"
+            >
+                              </div>
+                </div>
+              </div>
+            <div class="details-wrap">
+              <div class="details">
+                <div class="details-inner">
+                    <div class="title preserve-whitespace">Electric Phase-change Actuator</div>
+                    <div class="custom1 preserve-whitespace">ICRA2017</div>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a class="project-cover js-project-cover-touch hold-space" href="/phones-on-wheels" data-context="pages" data-identity="id:p59f532e3ed906ac002d5b1fbe7d5fa3eae775c7ab7d5ed270b1a4" data-hover-hint-id="p59f532e3ed906ac002d5b1fbe7d5fa3eae775c7ab7d5ed270b1a4" data-hover-hint="galleryPageCover">
+              <div class="cover-image-wrap">
+                <div class="cover-image">
+                    <div class="cover cover-normal">
+
+            <img
+              class="cover__img js-lazy"
+              src="https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/7f35c9fa-e856-40fa-a7d8-e0aae3d912dd_rwc_33x0x409x320x32.jpg?h=22f913b8f3d9eb3c1cd58d53dbab0fb3"
+              data-src="https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/7f35c9fa-e856-40fa-a7d8-e0aae3d912dd_rwc_33x0x409x320x409.jpg?h=5c6c6a85e924e1479b9b7f502df11799"
+              data-srcset="https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/7f35c9fa-e856-40fa-a7d8-e0aae3d912dd_rwc_33x0x409x320x640.jpg?h=57dc2737c792c611343add2fa3d784ca 640w, https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/7f35c9fa-e856-40fa-a7d8-e0aae3d912dd_rwc_33x0x409x320x1280.jpg?h=5edd1114a157c9d76eb99cba5a0267cf 1280w, https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/7f35c9fa-e856-40fa-a7d8-e0aae3d912dd_rwc_33x0x409x320x1366.jpg?h=dd88074f4cc51e468f10ae842e749192 1366w, https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/7f35c9fa-e856-40fa-a7d8-e0aae3d912dd_rwc_33x0x409x320x1920.jpg?h=952381a0122b22a948156cdd12e4f77c 1920w, https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/7f35c9fa-e856-40fa-a7d8-e0aae3d912dd_rwc_33x0x409x320x409.jpg?h=5c6c6a85e924e1479b9b7f502df11799 2560w, https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/7f35c9fa-e856-40fa-a7d8-e0aae3d912dd_rwc_33x0x409x320x409.jpg?h=5c6c6a85e924e1479b9b7f502df11799 5120w"
+              data-sizes="(max-width: 540px) 100vw, (max-width: 768px) 50vw, calc(1400px / 3)"
+            >
+                              </div>
+                </div>
+              </div>
+            <div class="details-wrap">
+              <div class="details">
+                <div class="details-inner">
+                    <div class="title preserve-whitespace">Phones on Wheels</div>
+                    <div class="custom1 preserve-whitespace">UIST Demo 2016</div>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a class="project-cover js-project-cover-touch hold-space" href="/passive-and-contactless-epidermal-pressure-sensor" data-context="pages" data-identity="id:p59f542ce4ddf465649e5a66f46e1f39816ebde0bb47f9fb9daba8" data-hover-hint-id="p59f542ce4ddf465649e5a66f46e1f39816ebde0bb47f9fb9daba8" data-hover-hint="galleryPageCover">
+              <div class="cover-image-wrap">
+                <div class="cover-image">
+                    <div class="cover cover-normal">
+
+            <img
+              class="cover__img js-lazy"
+              src="https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/da90146e-d5fb-4bce-9f3d-0f5099f1dbf9_rwc_111x0x511x400x32.jpg?h=65cbff18e9400278a2235e0de5598a0c"
+              data-src="https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/da90146e-d5fb-4bce-9f3d-0f5099f1dbf9_rwc_111x0x511x400x511.jpg?h=f3f21e900b30bf09e6cc1891230cbeac"
+              data-srcset="https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/da90146e-d5fb-4bce-9f3d-0f5099f1dbf9_rwc_111x0x511x400x640.jpg?h=0b2166a0445b169547f70e7794aaea16 640w, https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/da90146e-d5fb-4bce-9f3d-0f5099f1dbf9_rwc_111x0x511x400x511.jpg?h=f3f21e900b30bf09e6cc1891230cbeac 1280w, https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/da90146e-d5fb-4bce-9f3d-0f5099f1dbf9_rwc_111x0x511x400x511.jpg?h=f3f21e900b30bf09e6cc1891230cbeac 1366w, https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/da90146e-d5fb-4bce-9f3d-0f5099f1dbf9_rwc_111x0x511x400x511.jpg?h=f3f21e900b30bf09e6cc1891230cbeac 1920w, https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/da90146e-d5fb-4bce-9f3d-0f5099f1dbf9_rwc_111x0x511x400x511.jpg?h=f3f21e900b30bf09e6cc1891230cbeac 2560w, https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/da90146e-d5fb-4bce-9f3d-0f5099f1dbf9_rwc_111x0x511x400x511.jpg?h=f3f21e900b30bf09e6cc1891230cbeac 5120w"
+              data-sizes="(max-width: 540px) 100vw, (max-width: 768px) 50vw, calc(1400px / 3)"
+            >
+                              </div>
+                </div>
+              </div>
+            <div class="details-wrap">
+              <div class="details">
+                <div class="details-inner">
+                    <div class="title preserve-whitespace">Passive and Contactless Epidermal Pressure Sensor</div>
+                    <div class="custom1 preserve-whitespace">UbiComp 2016</div>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a class="project-cover js-project-cover-touch hold-space" href="/double-layer-for-instant-inkjet-circuits" data-context="pages" data-identity="id:p59f549054c4db12877064902db26db5d4c38c7321f044fa82ea68" data-hover-hint-id="p59f549054c4db12877064902db26db5d4c38c7321f044fa82ea68" data-hover-hint="galleryPageCover">
+              <div class="cover-image-wrap">
+                <div class="cover-image">
+                    <div class="cover cover-normal">
+
+            <img
+              class="cover__img js-lazy"
+              src="https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/f19e22c1-79d7-493e-beb3-33010142a8ec_rwc_196x0x721x564x32.jpg?h=c461cc5c8cc3439db8da7610749edfe3"
+              data-src="https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/f19e22c1-79d7-493e-beb3-33010142a8ec_rwc_196x0x721x564x721.jpg?h=57b590e3c9ceda2fbd06226691fea213"
+              data-srcset="https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/f19e22c1-79d7-493e-beb3-33010142a8ec_rwc_196x0x721x564x640.jpg?h=4871b1a046491109dda026b578e95dd4 640w, https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/f19e22c1-79d7-493e-beb3-33010142a8ec_rwc_196x0x721x564x721.jpg?h=57b590e3c9ceda2fbd06226691fea213 1280w, https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/f19e22c1-79d7-493e-beb3-33010142a8ec_rwc_196x0x721x564x721.jpg?h=57b590e3c9ceda2fbd06226691fea213 1366w, https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/f19e22c1-79d7-493e-beb3-33010142a8ec_rwc_196x0x721x564x721.jpg?h=57b590e3c9ceda2fbd06226691fea213 1920w, https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/f19e22c1-79d7-493e-beb3-33010142a8ec_rwc_196x0x721x564x721.jpg?h=57b590e3c9ceda2fbd06226691fea213 2560w, https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/f19e22c1-79d7-493e-beb3-33010142a8ec_rwc_196x0x721x564x721.jpg?h=57b590e3c9ceda2fbd06226691fea213 5120w"
+              data-sizes="(max-width: 540px) 100vw, (max-width: 768px) 50vw, calc(1400px / 3)"
+            >
+                              </div>
+                </div>
+              </div>
+            <div class="details-wrap">
+              <div class="details">
+                <div class="details-inner">
+                    <div class="title preserve-whitespace">Double Layer for Instant Inkjet Circuits</div>
+                    <div class="custom1 preserve-whitespace">UbiComp 2015</div>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a class="project-cover js-project-cover-touch hold-space" href="/conductar" data-context="pages" data-identity="id:p59f56cfea07c3da10971d1945e9fd3323b176f35c147fc5e178d6" data-hover-hint-id="p59f56cfea07c3da10971d1945e9fd3323b176f35c147fc5e178d6" data-hover-hint="galleryPageCover">
+              <div class="cover-image-wrap">
+                <div class="cover-image">
+                    <div class="cover cover-normal">
+
+            <img
+              class="cover__img js-lazy"
+              src="https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/5650d51c-07a8-47b1-9e42-9d3adfd6b4f6_rwc_30x0x1666x1303x32.jpg?h=c86bf31e1ea500efc4056630930aac99"
+              data-src="https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/5650d51c-07a8-47b1-9e42-9d3adfd6b4f6_rwc_30x0x1666x1303x1666.jpg?h=9fdedfbe112dad35b438ea35b2d46607"
+              data-srcset="https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/5650d51c-07a8-47b1-9e42-9d3adfd6b4f6_rwc_30x0x1666x1303x640.jpg?h=a450b30248b8ad8fdadb526d24060249 640w, https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/5650d51c-07a8-47b1-9e42-9d3adfd6b4f6_rwc_30x0x1666x1303x1280.jpg?h=c5136c71093e61acf3cbe35ee73b1d88 1280w, https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/5650d51c-07a8-47b1-9e42-9d3adfd6b4f6_rwc_30x0x1666x1303x1366.jpg?h=48a08f6e55408079a11b36b0a85d986d 1366w, https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/5650d51c-07a8-47b1-9e42-9d3adfd6b4f6_rwc_30x0x1666x1303x1920.jpg?h=5fabc1486bdec601db9032fd779b98f9 1920w, https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/5650d51c-07a8-47b1-9e42-9d3adfd6b4f6_rwc_30x0x1666x1303x1666.jpg?h=9fdedfbe112dad35b438ea35b2d46607 2560w, https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/5650d51c-07a8-47b1-9e42-9d3adfd6b4f6_rwc_30x0x1666x1303x1666.jpg?h=9fdedfbe112dad35b438ea35b2d46607 5120w"
+              data-sizes="(max-width: 540px) 100vw, (max-width: 768px) 50vw, calc(1400px / 3)"
+            >
+                              </div>
+                </div>
+              </div>
+            <div class="details-wrap">
+              <div class="details">
+                <div class="details-inner">
+                    <div class="title preserve-whitespace">ConductAR</div>
+                    <div class="custom1 preserve-whitespace">UbiComp 2015</div>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a class="project-cover js-project-cover-touch hold-space" href="/circuit-eraser" data-context="pages" data-identity="id:p59f571b93c0397f5f80448496b60b04c86c3ad1d52dbb05f0b925" data-hover-hint-id="p59f571b93c0397f5f80448496b60b04c86c3ad1d52dbb05f0b925" data-hover-hint="galleryPageCover">
+              <div class="cover-image-wrap">
+                <div class="cover-image">
+                    <div class="cover cover-normal">
+
+            <img
+              class="cover__img js-lazy"
+              src="https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/52312644-465c-416a-b5f9-33b299803d71_rwc_141x0x1637x1280x32.jpg?h=ba087f5a9561831ef29d6a91abc497dd"
+              data-src="https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/52312644-465c-416a-b5f9-33b299803d71_rwc_141x0x1637x1280x1637.jpg?h=00f7cfd0043ff9cc68a405733911c72c"
+              data-srcset="https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/52312644-465c-416a-b5f9-33b299803d71_rwc_141x0x1637x1280x640.jpg?h=2c0d279dd59ebefd1e66acf3bdfb1abd 640w, https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/52312644-465c-416a-b5f9-33b299803d71_rwc_141x0x1637x1280x1280.jpg?h=4151f9a0655ada4001435c2dd3a04e91 1280w, https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/52312644-465c-416a-b5f9-33b299803d71_rwc_141x0x1637x1280x1366.jpg?h=e35fc3a857c551b460c82b56c8d851ac 1366w, https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/52312644-465c-416a-b5f9-33b299803d71_rwc_141x0x1637x1280x1920.jpg?h=36ce22cd86bb995c29884305970a8b3c 1920w, https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/52312644-465c-416a-b5f9-33b299803d71_rwc_141x0x1637x1280x1637.jpg?h=00f7cfd0043ff9cc68a405733911c72c 2560w, https://cdn.myportfolio.com/8b09d49c5abf81a083c6419a11b9cf8c/52312644-465c-416a-b5f9-33b299803d71_rwc_141x0x1637x1280x1637.jpg?h=00f7cfd0043ff9cc68a405733911c72c 5120w"
+              data-sizes="(max-width: 540px) 100vw, (max-width: 768px) 50vw, calc(1400px / 3)"
+            >
+                              </div>
+                </div>
+              </div>
+            <div class="details-wrap">
+              <div class="details">
+                <div class="details-inner">
+                    <div class="title preserve-whitespace">Circuit Eraser</div>
+                    <div class="custom1 preserve-whitespace">CHI EA 2015</div>
+                </div>
+              </div>
+            </div>
+          </a>
+          </section>
+              <section class="back-to-top" data-hover-hint="backToTop">
+                <a href="#"><span class="arrow">&uarr;</span><span class="preserve-whitespace">Back to Top</span></a>
+              </section>
+              <a class="back-to-top-fixed js-back-to-top back-to-top-fixed-with-panel" data-hover-hint="backToTop" data-hover-hint-placement="top-start" href="#">
+                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                 viewBox="0 0 26 26" style="enable-background:new 0 0 26 26;" xml:space="preserve" class="icon icon-back-to-top">
+                <g>
+                  <path d="M13.8,1.3L21.6,9c0.1,0.1,0.1,0.3,0.2,0.4c0.1,0.1,0.1,0.3,0.1,0.4s0,0.3-0.1,0.4c-0.1,0.1-0.1,0.3-0.3,0.4
+                    c-0.1,0.1-0.2,0.2-0.4,0.3c-0.2,0.1-0.3,0.1-0.4,0.1c-0.1,0-0.3,0-0.4-0.1c-0.2-0.1-0.3-0.2-0.4-0.3L14.2,5l0,19.1
+                    c0,0.2-0.1,0.3-0.1,0.5c0,0.1-0.1,0.3-0.3,0.4c-0.1,0.1-0.2,0.2-0.4,0.3c-0.1,0.1-0.3,0.1-0.5,0.1c-0.1,0-0.3,0-0.4-0.1
+                    c-0.1-0.1-0.3-0.1-0.4-0.3c-0.1-0.1-0.2-0.2-0.3-0.4c-0.1-0.1-0.1-0.3-0.1-0.5l0-19.1l-5.7,5.7C6,10.8,5.8,10.9,5.7,11
+                    c-0.1,0.1-0.3,0.1-0.4,0.1c-0.2,0-0.3,0-0.4-0.1c-0.1-0.1-0.3-0.2-0.4-0.3c-0.1-0.1-0.1-0.2-0.2-0.4C4.1,10.2,4,10.1,4.1,9.9
+                    c0-0.1,0-0.3,0.1-0.4c0-0.1,0.1-0.3,0.3-0.4l7.7-7.8c0.1,0,0.2-0.1,0.2-0.1c0,0,0.1-0.1,0.2-0.1c0.1,0,0.2,0,0.2-0.1
+                    c0.1,0,0.1,0,0.2,0c0,0,0.1,0,0.2,0c0.1,0,0.2,0,0.2,0.1c0.1,0,0.1,0.1,0.2,0.1C13.7,1.2,13.8,1.2,13.8,1.3z"/>
+                </g>
+                </svg>
+              </a>
+        </main>
+      </div>
+    </div>
+  </div>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"e7fb1b89a0","applicationID":"750147145","transactionName":"ZwZaYkJVDERXUxULCV5Me0NDQA1aGWsmJzJtQxdtS0QDQ14KT0gbbQ==","queueTime":0,"applicationTime":16,"atts":"S0FNFApPHxsUUUNYHU0e","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+<script type="text/javascript">
+  // fix for Safari's back/forward cache
+  window.onpageshow = function(e) {
+    if (e.persisted) { window.location.reload(); }
+  };
 </script>
-
+  <script type="text/javascript">var __config__ = {"page_id":"p59ef2780361aa241542242fc362e8b6ce38d9fa4f8511ea012843","theme":{"name":"mell"},"pageTransition":true,"linkTransition":true,"disableDownload":false,"localizedValidationMessages":{"required":"This field is required","Email":"This field must be a valid email address"},"lightbox":{"enabled":true,"color":{"opacity":0.94,"hex":"#fff"}},"cookie_banner":{"enabled":false},"googleAnalytics":{"trackingCode":"UA-108863557-1","anonymization":false}};</script>
+  <script type="text/javascript" src="/site/translations?cb=a993f0d451719a7fbe0a52ebd9393632a66cc91b"></script>
+  <script type="text/javascript" src="/dist/js/main.js?cb=a993f0d451719a7fbe0a52ebd9393632a66cc91b"></script>
+</html>
